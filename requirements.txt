@@ -1,0 +1,12 @@
+streamlit>=1.40
+altair>=5
+pandas
+numpy
+
+# Layer 4's physician alert. Imported lazily, so a missing key or a missing
+# package degrades to the deterministic template rather than failing to start.
+anthropic
+
+# The recipe pool. Also imported lazily — without it, and without a reachable
+# database, the Recipes tab serves the local cache in .recipe_cache/.
+psycopg[binary]

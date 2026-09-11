@@ -1,0 +1,922 @@
+{
+ "fetched_at": "2026-09-11T13:52:55",
+ "selection": {
+  "schema_version": "phase1_recipe_selection_v2_recipe_pool",
+  "healing_phase": "REMODELLING",
+  "macro_profile_version": "phase1_v1",
+  "nss_escalation": "none",
+  "recipes_per_meal": 3,
+  "meals": [
+   "breakfast",
+   "lunch",
+   "dinner"
+  ],
+  "requested_total": 9,
+  "status": "ok",
+  "profile_used": {
+   "gender": "male",
+   "age": 45.0,
+   "weight_kg": 68.0,
+   "height_cm": 178.0,
+   "dietary_restrictions": [],
+   "allergens": []
+  },
+  "source": "ai_rds_recipe_pool",
+  "date": "2026-09-11",
+  "summary": "Approved profile-compatible recipes selected from the AI-RDS recipe pool for the current healing phase.",
+  "days": [
+   {
+    "day": 1,
+    "date": "2026-09-11",
+    "healing_phase": "REMODELLING",
+    "recommended_recipes": {
+     "breakfast": {
+      "recommended_meals": [
+       {
+        "action_space": "REMODELLING",
+        "macro_profile_version": "phase1_v1",
+        "recipe": {
+         "summary": "A creamy split pea and buckwheat porridge turned golden with turmeric and finished with crunchy toasted macadamia nuts.",
+         "food_title": "Turmeric Split Pea Porridge with Buckwheat and Macadamia",
+         "mealType": [
+          "breakfast"
+         ],
+         "servings": "1",
+         "ready_in_minutes": "25",
+         "ingredients": [
+          {
+           "name": "split peas",
+           "unit": "g",
+           "quantity": 54.1
+          },
+          {
+           "name": "buckwheat flour",
+           "unit": "g",
+           "quantity": 24.5
+          },
+          {
+           "name": "macadamia nut",
+           "unit": "g",
+           "quantity": 15.0
+          },
+          {
+           "name": "Turmeric",
+           "unit": "g",
+           "quantity": 0.3
+          }
+         ],
+         "Calories": "387.8",
+         "Protein": "16.8",
+         "Carbohydrates": "52.9",
+         "Total Fat": "14.3",
+         "Sodium": "6.2",
+         "Saturated Fat": "2.2",
+         "Cholesterol": "0",
+         "Sugar": "3",
+         "Calcium": "48.2",
+         "Iron": "4.3",
+         "Potassium": "664.2",
+         "Vitamin C": "1.2",
+         "Vitamin E": "0.2",
+         "Vitamin D": "0",
+         "cautions": [
+          "Flour",
+          "Nut"
+         ],
+         "diet_labels": [
+          "Gluten Free",
+          "Pescetarian",
+          "Vegetarian",
+          "Vegan"
+         ],
+         "instructions": [
+          "1. Rinse 54.1 g split peas well under cold water, then place them in a small saucepan with 400 ml water and bring to a boil over high heat.",
+          "2. Reduce the heat to low-medium and simmer the split peas, stirring occasionally, for about 12-15 minutes, until they soften and begin to break down into the water.",
+          "3. Sprinkle in 24.5 g buckwheat flour gradually, whisking constantly to avoid clumping, and cook for about 3-4 minutes, stirring, until the porridge thickens into a smooth, hearty consistency.",
+          "4. Stir in 0.3 g Turmeric and cook for another minute, stirring, until the porridge turns an even golden color and smells fragrant.",
+          "5. While the porridge finishes cooking, roughly chop 15 g macadamia nut and toast the pieces in a dry small pan over medium heat for 1-2 minutes, shaking the pan occasionally, until lightly golden and aromatic.",
+          "6. Spoon the hot porridge into a bowl and scatter the toasted macadamia nut pieces over the top.",
+          "7. Serve immediately while warm."
+         ],
+         "main_ingredients": [
+          "split peas",
+          "buckwheat flour"
+         ],
+         "short_description": "Golden turmeric split pea porridge with toasted macadamia.",
+         "long_description": "Split peas simmer down into a soft, savory base, then buckwheat flour is whisked in to build a thick, hearty porridge with a warm golden hue from turmeric. A scattering of freshly toasted macadamia nuts on top adds richness and crunch, making this a satisfying, comforting bowl to start the day.",
+         "vitamin_mineral_claims": [
+          "High in Iron",
+          "High in Potassium"
+         ],
+         "why_this_works_for_you": "The split peas and buckwheat flour cook into a naturally thick, spoonable porridge, so you get a filling texture without any fuss. Turmeric brings warmth and color, while the toasted macadamia nuts add a buttery crunch that plays nicely against the smooth base\u2014an easy, cozy bowl to wake up to.",
+         "scientific_evidence_support": [
+          {
+           "source_url": "https://medlineplus.gov/ency/article/002469.htm",
+           "description": "Split peas are associated with evidence related to triglycerides."
+          },
+          {
+           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2833354/",
+           "description": "Buckwheat flour is linked to evidence that may decrease ldl cholesterol."
+          }
+         ]
+        }
+       },
+       {
+        "action_space": "REMODELLING",
+        "macro_profile_version": "phase1_v1",
+        "recipe": {
+         "summary": "A savoury, nutty chickpea flour pancake studded with almond and warmed through with black pepper, pan-fried until golden in about 20 minutes.",
+         "food_title": "Almond Chickpea Flour Chilla (Savory Breakfast Pancake)",
+         "mealType": [
+          "breakfast"
+         ],
+         "servings": "1",
+         "ready_in_minutes": "20",
+         "ingredients": [
+          {
+           "name": "chickpea flour",
+           "unit": "g",
+           "quantity": 65.8
+          },
+          {
+           "name": "almond",
+           "unit": "g",
+           "quantity": 17.0
+          },
+          {
+           "name": "corn oil",
+           "unit": "g",
+           "quantity": 2.1
+          },
+          {
+           "name": "black pepper",
+           "unit": "g",
+           "quantity": 2.5
+          }
+         ],
+         "Calories": "377.6",
+         "Protein": "18.6",
+         "Carbohydrates": "43.3",
+         "Total Fat": "15",
+         "Sodium": "42.8",
+         "Saturated Fat": "1.4",
+         "Cholesterol": "0",
+         "Sugar": "7.9",
+         "Calcium": "86.3",
+         "Iron": "4.1",
+         "Potassium": "714.3",
+         "Vitamin C": "0",
+         "Vitamin E": "5.2",
+         "Vitamin D": "0",
+         "cautions": [
+          "Almond",
+          "Flour",
+          "Nut"
+         ],
+         "diet_labels": [
+          "Gluten Free",
+          "Pescetarian",
+          "Vegetarian",
+          "Vegan"
+         ],
+         "instructions": [
+          "1. In a mixing bowl, combine 65.8 g chickpea flour and 17 g almond (finely chopped or ground).",
+          "2. Pour in 90 ml water (the total process water for this recipe), whisking continuously until you have a smooth, lump-free batter about the thickness of pancake batter.",
+          "3. Whisk 2.5 g black pepper into the batter, then let the mixture rest for 5 minutes so the chickpea flour fully hydrates and the batter thickens slightly.",
+          "4. Heat 2.1 g corn oil in a nonstick skillet or griddle over medium heat, tilting the pan so the oil coats the surface evenly.",
+          "5. Once the oil shimmers, pour the batter onto the skillet in one portion, using the back of the ladle to spread it into a thin, even round about 15 cm across.",
+          "6. Cook for 2-3 minutes until the surface loses its wet sheen, small bubbles appear, and the edges begin to lift and turn golden.",
+          "7. Slide a thin spatula underneath, flip the pancake in one confident motion, and cook the second side for a further 2 minutes until firm to the touch and golden-brown patches show underneath.",
+          "8. Slide the finished chickpea and almond chilla onto a plate and serve immediately while hot and crisp at the edges."
+         ],
+         "main_ingredients": [
+          "chickpea flour",
+          "almond"
+         ],
+         "short_description": "Golden savoury chickpea and almond pancake with black pepper.",
+         "long_description": "This single-serving chilla combines chickpea flour and finely chopped almond into a thick batter, seasoned with black pepper and cooked in a lightly oiled skillet until the edges turn crisp and golden while the inside stays tender. It's a quick, satisfying savoury breakfast that eats like a cross between a pancake and a flatbread, best enjoyed hot straight from the pan.",
+         "vitamin_mineral_claims": [
+          "Source of Iron",
+          "High in Potassium",
+          "High in Vitamin E"
+         ],
+         "why_this_works_for_you": "The chickpea flour batter fries up with crisp lacy edges and a soft, dense middle, while the chopped almond adds a pleasant nutty bite and the black pepper gives it a gentle warmth without overpowering the dish. It's a one-bowl batter you can mix, rest, and cook in about 20 minutes, making it an easy savoury option when you want something more substantial than a sweet breakfast.",
+         "scientific_evidence_support": [
+          {
+           "source_url": "https://health.clevelandclinic.org/resistant-starch",
+           "description": "Chickpea flour is linked to evidence that may decrease triglycerides."
+          },
+          {
+           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2833354/",
+           "description": "Almond is linked to evidence that may decrease ldl cholesterol."
+          }
+         ]
+        }
+       },
+       {
+        "action_space": "REMODELLING",
+        "macro_profile_version": "phase1_v1",
+        "recipe": {
+         "summary": "A creamy, earthy split pea porridge warmed with turmeric and black pepper and topped with crunchy pecans for a satisfying start to the day.",
+         "food_title": "Savory Split Pea &amp; Pecan Breakfast Porridge",
+         "mealType": [
+          "breakfast"
+         ],
+         "servings": "1",
+         "ready_in_minutes": "25",
+         "ingredients": [
+          {
+           "name": "split peas",
+           "unit": "g",
+           "quantity": 68.8
+          },
+          {
+           "name": "pecan",
+           "unit": "g",
+           "quantity": 13.2
+          },
+          {
+           "name": "Turmeric",
+           "unit": "g",
+           "quantity": 1.7
+          },
+          {
+           "name": "black pepper",
+           "unit": "g",
+           "quantity": 1.6
+          }
+         ],
+         "Calories": "351",
+         "Protein": "17.4",
+         "Carbohydrates": "46.4",
+         "Total Fat": "12.3",
+         "Sodium": "4.2",
+         "Saturated Fat": "1.2",
+         "Cholesterol": "0",
+         "Sugar": "2.7",
+         "Calcium": "50.9",
+         "Iron": "4.7",
+         "Potassium": "696.4",
+         "Vitamin C": "1.4",
+         "Vitamin E": "0.4",
+         "Vitamin D": "0",
+         "cautions": [
+          "Nut"
+         ],
+         "diet_labels": [
+          "Gluten Free",
+          "Pescetarian",
+          "Vegetarian",
+          "Vegan"
+         ],
+         "instructions": [
+          "1. Rinse 68.8 g split peas well under cold water, then place them in a small saucepan with 245 ml of the water (reserve the remaining 35 ml of the 280 ml total for later) and 1.7 g Turmeric.",
+          "2. Bring to a boil over medium-high heat, then reduce to a low simmer and cook uncovered for 18-20 minutes, stirring occasionally, until the split peas are very soft and starting to break down.",
+          "3. While the peas cook, roughly chop 13.2 g pecan and set aside.",
+          "4. Check the porridge's texture: if it looks thick before the peas are fully tender, stir in the reserved 35 ml water to loosen it and continue simmering until creamy and porridge-like.",
+          "5. Once the split peas are fully soft and the porridge has thickened to a spoonable consistency, remove the pan from the heat and stir in half of the chopped pecans.",
+          "6. Spoon the porridge into a bowl, scatter the rest of the chopped pecans on top, and finish with 1.6 g black pepper sprinkled over the surface.",
+          "7. Serve immediately while warm."
+         ],
+         "main_ingredients": [
+          "split peas"
+         ],
+         "short_description": "Creamy turmeric split pea porridge with pecans.",
+         "long_description": "Split peas simmer down into a thick, velvety porridge, gently perfumed with turmeric and black pepper for warmth without heat. Chopped pecans folded in and scattered on top add a toasty crunch that plays against the soft, spoonable base, making this a hearty savory alternative to sweet breakfast bowls.",
+         "vitamin_mineral_claims": [
+          "High in Iron",
+          "High in Potassium"
+         ],
+         "why_this_works_for_you": "Split peas gives this breakfast its substance, Turmeric and black pepper keep it from tasting plain, and it is on the table in about 25 minutes \u2014 a straightforward pescatarian breakfast you can cook on a weeknight.",
+         "scientific_evidence_support": [
+          {
+           "source_url": "https://medlineplus.gov/ency/article/002469.htm",
+           "description": "Split peas are associated with evidence related to triglycerides."
+          }
+         ]
+        }
+       }
+      ]
+     },
+     "lunch": {
+      "recommended_meals": [
+       {
+        "action_space": "REMODELLING",
+        "macro_profile_version": "phase1_v1",
+        "recipe": {
+         "summary": "A creamy spelt porridge studded with toasted peanuts and cracked black pepper, finished with a scatter of crunchy popcorn, ready in about 25 minutes.",
+         "food_title": "Spelt Porridge Bowl with Peanuts and Black Pepper",
+         "mealType": [
+          "lunch"
+         ],
+         "servings": "1",
+         "ready_in_minutes": "25",
+         "ingredients": [
+          {
+           "name": "spelt",
+           "unit": "g",
+           "quantity": 134.2
+          },
+          {
+           "name": "peanut",
+           "unit": "g",
+           "quantity": 54.1
+          },
+          {
+           "name": "popcorn",
+           "unit": "g",
+           "quantity": 3.3
+          },
+          {
+           "name": "black pepper",
+           "unit": "g",
+           "quantity": 0.5
+          }
+         ],
+         "Calories": "773.8",
+         "Protein": "33.7",
+         "Carbohydrates": "105.9",
+         "Total Fat": "30",
+         "Sodium": "32.6",
+         "Saturated Fat": "4.1",
+         "Cholesterol": "0",
+         "Sugar": "11.3",
+         "Calcium": "87",
+         "Iron": "7.5",
+         "Potassium": "908.7",
+         "Vitamin C": "0",
+         "Vitamin E": "4.8",
+         "Vitamin D": "0",
+         "cautions": [
+          "Cereals",
+          "Gluten",
+          "Nut",
+          "Peanuts"
+         ],
+         "diet_labels": [
+          "Pescetarian",
+          "Vegetarian",
+          "Vegan"
+         ],
+         "instructions": [
+          "1. Rinse 134.2 g spelt under cold water, then place it in a saucepan with 350 ml of the water (from a total of 450 ml process water).",
+          "2. Bring to a boil over high heat, then reduce the heat to low and simmer gently, stirring occasionally, for 18-20 minutes, until the spelt is tender and has absorbed most of the liquid, thickening into a soft porridge consistency.",
+          "3. While the spelt simmers, roughly chop 54.1 g peanut and toast it in a dry skillet over medium heat for 2-3 minutes, shaking the pan often, until fragrant and golden.",
+          "4. Crack 0.5 g black pepper over the toasting peanut to bloom its aroma, then remove the skillet from the heat.",
+          "5. Check the spelt: if the pan looks dry before the grains are fully tender, stir in the remaining 100 ml water and continue simmering until it reaches a creamy, spoonable texture.",
+          "6. Off the heat, stir the toasted peanut and black pepper mixture into the porridge, folding it through evenly.",
+          "7. Transfer the porridge to a serving bowl and scatter 3.3 g popcorn over the top for crunch before serving warm."
+         ],
+         "main_ingredients": [
+          "spelt",
+          "peanut"
+         ],
+         "short_description": "Creamy peppery spelt porridge with toasted peanuts and popcorn crunch.",
+         "long_description": "Whole spelt grains simmer down into a thick, spoonable porridge, then get folded through with toasted peanuts and a hit of freshly cracked black pepper for warmth. A final scatter of popcorn on top adds a light, crackly crunch against the soft, creamy base. It's a satisfying, savory bowl that works just as well for a cozy lunch as it does for a lazy breakfast.",
+         "vitamin_mineral_claims": [
+          "High in Iron",
+          "High in Potassium",
+          "High in Vitamin E"
+         ],
+         "why_this_works_for_you": "The slow-simmered spelt turns silky and comforting, while the toasted peanuts bring nutty depth and the cracked black pepper keeps every spoonful lively rather than flat. Popcorn scattered on top gives a playful, crisp contrast to the creamy base, so you get both softness and crunch in one bowl. It's simple stovetop cooking with no fuss, ready in well under half an hour.",
+         "scientific_evidence_support": [
+          {
+           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5920414/",
+           "description": "Spelt is linked to evidence that may decrease homocysteine."
+          },
+          {
+           "source_url": "https://pubs.acs.org/doi/10.1021/jf034815d",
+           "description": "Peanut is linked to evidence that may decrease ldl cholesterol."
+          }
+         ]
+        }
+       },
+       {
+        "action_space": "REMODELLING",
+        "macro_profile_version": "phase1_v1",
+        "recipe": {
+         "summary": "A soft, golden flatbread of whole-wheat flour flecked with turmeric and studded with toasted pumpkin seeds, ready for a quick, satisfying lunch.",
+         "food_title": "Turmeric Pumpkin Seed Flatbread",
+         "mealType": [
+          "lunch"
+         ],
+         "servings": "1",
+         "ready_in_minutes": "25",
+         "ingredients": [
+          {
+           "name": "whole-wheat flour",
+           "unit": "g",
+           "quantity": 137.0
+          },
+          {
+           "name": "pumpkin seeds",
+           "unit": "g",
+           "quantity": 50.8
+          },
+          {
+           "name": "Turmeric",
+           "unit": "g",
+           "quantity": 2.7
+          },
+          {
+           "name": "coconut oil",
+           "unit": "g",
+           "quantity": 1.6
+          }
+         ],
+         "Calories": "772.6",
+         "Protein": "33.7",
+         "Carbohydrates": "105.9",
+         "Total Fat": "30",
+         "Sodium": "7",
+         "Saturated Fat": "6.4",
+         "Cholesterol": "0",
+         "Sugar": "1.4",
+         "Calcium": "74.5",
+         "Iron": "10.9",
+         "Potassium": "964.5",
+         "Vitamin C": "1",
+         "Vitamin E": "2.2",
+         "Vitamin D": "0",
+         "cautions": [
+          "Cereals",
+          "Flour",
+          "Gluten"
+         ],
+         "diet_labels": [
+          "Pescetarian",
+          "Vegetarian",
+          "Vegan"
+         ],
+         "instructions": [
+          "1. Place 50.8 g pumpkin seeds in a dry skillet over medium heat and toast for 2-3 minutes, shaking the pan occasionally, until fragrant and lightly golden; tip onto a plate to cool, then roughly crush half of them with the flat of a knife, leaving the rest whole.",
+          "2. In a mixing bowl, combine 137 g whole-wheat flour with 2.7 g Turmeric, then add 1.6 g coconut oil (melted) and rub it into the flour with your fingertips until the mixture resembles coarse crumbs.",
+          "3. Measure 85 ml water in total; pour 65 ml into the bowl and knead for 4-5 minutes until a rough dough starts to come together, then work in the remaining 20 ml a little at a time until you have a smooth, slightly firm dough. Fold the crushed pumpkin seeds into the dough.",
+          "4. Cover the bowl and rest the dough for 5 minutes, then divide it into 2 equal portions and roll each on a lightly floured surface into a thin round about 15-18 cm across.",
+          "5. Heat a dry skillet or griddle over medium-high heat. Cook each round for 1-2 minutes on the first side until small bubbles and brown spots appear, then flip and cook for a further 1-2 minutes until puffed and lightly charred in spots. Repeat with the second round.",
+          "6. Scatter the reserved whole toasted pumpkin seeds over the warm flatbreads and serve immediately."
+         ],
+         "main_ingredients": [
+          "whole-wheat flour",
+          "pumpkin seeds"
+         ],
+         "short_description": "Turmeric-spiced flatbread with toasted pumpkin seeds.",
+         "long_description": "This flatbread pairs earthy turmeric with the nutty crunch of toasted pumpkin seeds folded right into a tender whole-wheat dough, then finished with a scattering of extra seeds for texture. A touch of coconut oil keeps the crumb soft and lightly rich, while quick pan-cooking gives each round warm charred spots and a pleasing chew.",
+         "vitamin_mineral_claims": [
+          "High in Iron",
+          "High in Potassium",
+          "Source of Vitamin E"
+         ],
+         "why_this_works_for_you": "The whole-wheat dough is easy to bring together and cooks in just a couple of minutes per side, so you get a warm, freshly made bread without much fuss. Toasting the pumpkin seeds first, then folding some into the dough and saving the rest for topping, gives every bite contrasting soft and crunchy textures alongside the warm color and flavor of turmeric.",
+         "scientific_evidence_support": [
+          {
+           "source_url": "https://medlineplus.gov/ency/article/002093.htm",
+           "description": "Whole-wheat flour is linked to evidence that may decrease hba1c."
+          },
+          {
+           "source_url": "https://www.mensfitness.com/nutrition/supplement-guide-sesamin",
+           "description": "Pumpkin seeds are linked to evidence that may decrease ldl cholesterol."
+          }
+         ]
+        }
+       },
+       {
+        "action_space": "REMODELLING",
+        "macro_profile_version": "phase1_v1",
+        "recipe": {
+         "summary": "A quick bowl of glossy miso-buttered noodles finished with a scattering of toasted sesame for a savory, umami-rich lunch.",
+         "food_title": "Miso-Butter Noodle Bowl with Toasted Sesame",
+         "mealType": [
+          "lunch"
+         ],
+         "servings": "1",
+         "ready_in_minutes": "25",
+         "ingredients": [
+          {
+           "name": "noodles",
+           "unit": "g",
+           "quantity": 84.8
+          },
+          {
+           "name": "soy flour",
+           "unit": "g",
+           "quantity": 64.7
+          },
+          {
+           "name": "miso",
+           "unit": "g",
+           "quantity": 19.8
+          },
+          {
+           "name": "salted butter",
+           "unit": "g",
+           "quantity": 22.1
+          },
+          {
+           "name": "sesame",
+           "unit": "g",
+           "quantity": 5.9
+          }
+         ],
+         "Calories": "784.4",
+         "Protein": "41.2",
+         "Carbohydrates": "93.5",
+         "Total Fat": "29",
+         "Sodium": "903.5",
+         "Saturated Fat": "12.9",
+         "Cholesterol": "47.6",
+         "Sugar": "7.4",
+         "Calcium": "219.8",
+         "Iron": "6.8",
+         "Potassium": "1446.6",
+         "Vitamin C": "0",
+         "Vitamin E": "1.1",
+         "Vitamin D": "0",
+         "cautions": [
+          "Cereals",
+          "Dairy",
+          "Flour",
+          "Gluten",
+          "Sesame",
+          "Soy",
+          "Soya"
+         ],
+         "diet_labels": [
+          "Pescetarian",
+          "Vegetarian"
+         ],
+         "instructions": [
+          "1. Bring 320 ml of the water to a boil in a medium pot over high heat (the remaining 68.2 ml of the 388.2 ml total process water will be used for the sauce).",
+          "2. Add 84.8 g noodles to the boiling water and cook for 6-8 minutes, stirring occasionally, until tender but still firm to the bite; drain in a colander, setting the noodles aside.",
+          "3. While the noodles cook, place 64.7 g soy flour in a mixing bowl and whisk in the reserved 68.2 ml water in a thin stream until you have a smooth, thick paste with no lumps.",
+          "4. Add 19.8 g miso to the soy flour paste and whisk until fully dissolved and the mixture turns into a glossy, pourable sauce.",
+          "5. Set a skillet over medium-low heat and add 22.1 g salted butter; let it melt gently for about 1 minute without browning.",
+          "6. Pour the miso-soy sauce into the skillet and warm it through for 1-2 minutes, stirring constantly with a spatula to keep it from scorching or sticking.",
+          "7. Add the drained noodles to the skillet and toss with tongs for 1-2 minutes until every strand is evenly coated in the warm, glossy sauce and everything is heated through.",
+          "8. In a separate small dry pan over medium heat, toast 5.9 g sesame for about 1 minute, shaking the pan often, until fragrant and lightly golden.",
+          "9. Transfer the noodles to a serving bowl, scatter the toasted sesame over the top, and serve immediately while hot."
+         ],
+         "main_ingredients": [
+          "noodles",
+          "soy flour"
+         ],
+         "short_description": "Glossy miso-butter noodles with toasted sesame.",
+         "long_description": "Tender noodles are tossed in a silky, savory sauce made from a soy flour paste enriched with miso and melted salted butter, giving every strand a glossy, umami-packed coating. A final scatter of toasted sesame adds a nutty crunch and fragrance that rounds out this warm, satisfying bowl.",
+         "vitamin_mineral_claims": [
+          "Source of Calcium",
+          "High in Iron",
+          "High in Potassium"
+         ],
+         "why_this_works_for_you": "The soy flour paste thickens into a rich, clingy sauce so the noodles stay coated and silky rather than watery, while the miso and salted butter bring deep savory flavor with very little effort. Toasting the sesame right before serving wakes up its aroma and adds a pleasant bite of texture, making this a fast, comforting bowl you can pull together on any weekday lunch break.",
+         "scientific_evidence_support": [
+          {
+           "source_url": "https://www.joinlevity.com/posts/glucomannan-for-weight-loss",
+           "description": "Noodles are linked to evidence that may decrease ldl cholesterol."
+          },
+          {
+           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2833354/",
+           "description": "Soy flour is linked to evidence that may decrease ldl cholesterol."
+          }
+         ]
+        }
+       }
+      ]
+     },
+     "dinner": {
+      "recommended_meals": [
+       {
+        "action_space": "REMODELLING",
+        "macro_profile_version": "phase1_v1",
+        "recipe": {
+         "summary": "A hearty pan-seared flatbread made from savory crumbled soy burger folded into a rice flour batter, finished with a crunchy toasted pecan and black pepper topping.",
+         "food_title": "Soy Burger & Rice Flour Flatbread with Pecan-Pepper Crumble",
+         "mealType": [
+          "dinner"
+         ],
+         "servings": "1",
+         "ready_in_minutes": "35",
+         "ingredients": [
+          {
+           "name": "soy burgers",
+           "unit": "g",
+           "quantity": 151.2
+          },
+          {
+           "name": "Rice Flour",
+           "unit": "g",
+           "quantity": 104.1
+          },
+          {
+           "name": "pecan",
+           "unit": "g",
+           "quantity": 24.3
+          },
+          {
+           "name": "black pepper",
+           "unit": "g",
+           "quantity": 2.0
+          }
+         ],
+         "Calories": "818.2",
+         "Protein": "33.7",
+         "Carbohydrates": "105.9",
+         "Total Fat": "30",
+         "Sodium": "869.2",
+         "Saturated Fat": "4.3",
+         "Cholesterol": "7.6",
+         "Sugar": "3.3",
+         "Calcium": "242.9",
+         "Iron": "6.5",
+         "Potassium": "930.2",
+         "Vitamin C": "7.1",
+         "Vitamin E": "1.3",
+         "Vitamin D": "0",
+         "cautions": [
+          "Flour",
+          "Nut",
+          "Soy",
+          "Soya"
+         ],
+         "diet_labels": [
+          "Gluten Free",
+          "Pescetarian",
+          "Low FODMAP",
+          "Vegetarian",
+          "Vegan"
+         ],
+         "instructions": [
+          "1. Crumble 151.2 g soy burgers into small, even pieces using a fork and set aside.",
+          "2. In a mixing bowl, combine 104.1 g Rice Flour with 61.5 ml of the 88.5 ml total water, whisking until a smooth, pourable batter forms; fold in the crumbled soy burgers and 1 g of the 2 g black pepper.",
+          "3. Heat a non-stick skillet over medium heat. Pour in half of the batter to form a flatbread about 15 cm wide, and cook for 3-4 minutes until the underside is golden and set.",
+          "4. Flip the flatbread carefully and cook the other side for another 2-3 minutes until fully cooked through and lightly crisp at the edges; transfer to a plate.",
+          "5. Add the remaining 27 ml of water to the leftover batter if it has thickened, stir briefly, then pour it into the skillet to form the second flatbread; cook for 3-4 minutes on the first side and 2-3 minutes on the second side, exactly as before, until golden and cooked through.",
+          "6. While the flatbreads cook, toast 24.3 g pecan in a dry small pan over medium-low heat for 2-3 minutes, tossing often until fragrant and lightly darkened.",
+          "7. Roughly chop the toasted pecans and toss them with the remaining 1 g black pepper to make the pecan-pepper crumble.",
+          "8. Plate the two soy-studded rice flour flatbreads and scatter the pecan-pepper crumble evenly over the top before serving hot."
+         ],
+         "main_ingredients": [
+          "soy burgers",
+          "Rice Flour"
+         ],
+         "short_description": "Savory soy burger flatbread with pecan-pepper crumble.",
+         "long_description": "Crumbled soy burger is folded into a smooth rice flour batter and pan-seared until golden and lightly crisp at the edges, giving a soft, satisfying flatbread base. A scattering of toasted pecans tossed with black pepper adds crunch and a warm, peppery bite on top, making this a comforting dinner that feels a little indulgent despite its simple method.",
+         "vitamin_mineral_claims": [
+          "High in Calcium",
+          "High in Iron",
+          "High in Potassium"
+         ],
+         "why_this_works_for_you": "The soy burger keeps the flatbread hearty and savory while the rice flour batter gives it a soft, tender bite with crisp edges from the skillet. Toasting the pecans before tossing them with black pepper brings out a warm nuttiness that contrasts nicely with the softer base, and the whole dish comes together in one pan with minimal fuss, making it an easy weeknight dinner.",
+         "scientific_evidence_support": [
+          {
+           "source_url": "https://medlineplus.gov/ency/article/007847.htm",
+           "description": "Soy burgers are associated with evidence related to triglycerides."
+          },
+          {
+           "source_url": "https://www.professionalsupplementcenter.com/curalin-advanced-glucose-support-by-curalife",
+           "description": "Rice flour is linked to evidence that may decrease hba1c."
+          }
+         ]
+        }
+       },
+       {
+        "action_space": "REMODELLING",
+        "macro_profile_version": "phase1_v1",
+        "recipe": {
+         "summary": "A soft, golden-flecked flatbread made from whole wheat and chickpea flours, warmed through with turmeric and cracked black pepper and finished with a butter brush for a tender bite.",
+         "food_title": "Spiced Chickpea Flour Flatbread with Turmeric and Whole Wheat",
+         "mealType": [
+          "dinner"
+         ],
+         "servings": "1",
+         "ready_in_minutes": "30",
+         "ingredients": [
+          {
+           "name": "whole wheat flour",
+           "unit": "g",
+           "quantity": 49.9
+          },
+          {
+           "name": "chickpea flour",
+           "unit": "g",
+           "quantity": 119.4
+          },
+          {
+           "name": "unsalted butter",
+           "unit": "g",
+           "quantity": 25.5
+          },
+          {
+           "name": "Turmeric",
+           "unit": "g",
+           "quantity": 0.6
+          },
+          {
+           "name": "black pepper",
+           "unit": "g",
+           "quantity": 0.7
+          }
+         ],
+         "Calories": "819",
+         "Protein": "33.7",
+         "Carbohydrates": "105.9",
+         "Total Fat": "30",
+         "Sodium": "80.6",
+         "Saturated Fat": "14",
+         "Cholesterol": "54.9",
+         "Sugar": "13.1",
+         "Calcium": "81.2",
+         "Iron": "8",
+         "Potassium": "1221",
+         "Vitamin C": "0",
+         "Vitamin E": "2",
+         "Vitamin D": "0",
+         "cautions": [
+          "Cereals",
+          "Dairy",
+          "Flour",
+          "Gluten"
+         ],
+         "diet_labels": [
+          "Pescetarian",
+          "Vegetarian"
+         ],
+         "instructions": [
+          "1. In a mixing bowl, whisk together 49.9 g whole wheat flour, 119.4 g chickpea flour, 0.6 g Turmeric and 0.7 g black pepper until evenly combined.",
+          "2. Melt 12.75 g of the 25.5 g unsalted butter and work it into the flour mixture with your fingertips until the mixture resembles coarse crumbs.",
+          "3. Gradually add 110 ml water (the total process water for this recipe), mixing and kneading until a smooth, pliable dough forms; cover and rest for 10 minutes.",
+          "4. Divide the dough into two equal portions and roll each out on a lightly floured surface into a thin round, about 18-20 cm in diameter.",
+          "5. Heat a dry skillet or griddle over medium heat. Cook each flatbread for 1-2 minutes per side until small bubbles appear and light brown spots form.",
+          "6. Melt the remaining unsalted butter from the 25.5 g portion and brush it lightly over each cooked flatbread while still hot, then flip briefly to crisp the edges.",
+          "7. Stack the flatbreads, keep warm, and serve immediately as the main component of the meal."
+         ],
+         "main_ingredients": [
+          "whole wheat flour",
+          "chickpea flour"
+         ],
+         "short_description": "Soft turmeric-spiced chickpea and whole wheat flatbread.",
+         "long_description": "This griddle-cooked flatbread blends nutty chickpea flour with whole wheat flour, lightly spiced with turmeric and black pepper for warmth and color. A brush of melted butter after cooking gives the surface a soft sheen and rich finish, making it a satisfying centerpiece for a simple dinner.",
+         "vitamin_mineral_claims": [
+          "High in Iron",
+          "High in Potassium",
+          "Source of Vitamin E"
+         ],
+         "why_this_works_for_you": "The combination of chickpea and whole wheat flours gives this flatbread a hearty, slightly nutty chew, while turmeric and black pepper add gentle warmth without overpowering the dough. Cooking it on a dry skillet then finishing with butter keeps the texture soft and pliable, so it's easy to tear and enjoy fresh off the pan on a weeknight.",
+         "scientific_evidence_support": [
+          {
+           "source_url": "https://medlineplus.gov/ency/article/002093.htm",
+           "description": "Whole-wheat flour is linked to evidence that may decrease hba1c."
+          },
+          {
+           "source_url": "https://health.clevelandclinic.org/resistant-starch",
+           "description": "Chickpea flour is linked to evidence that may decrease triglycerides."
+          }
+         ]
+        }
+       },
+       {
+        "action_space": "REMODELLING",
+        "macro_profile_version": "phase1_v1",
+        "recipe": {
+         "summary": "A warm bowl of tender pasta wrapped in a golden, turmeric-spiced soy flour sauce, finished with a nutty hit of flaxseed oil and cracked black pepper.",
+         "food_title": "Turmeric Pasta with Soy Flour \"Cheese\" Sauce and Black Pepper",
+         "mealType": [
+          "dinner"
+         ],
+         "servings": "1",
+         "ready_in_minutes": "30",
+         "ingredients": [
+          {
+           "name": "pasta",
+           "unit": "g",
+           "quantity": 100.0
+          },
+          {
+           "name": "soy flour",
+           "unit": "g",
+           "quantity": 55.0
+          },
+          {
+           "name": "flaxseed oil",
+           "unit": "g",
+           "quantity": 18.0
+          },
+          {
+           "name": "Turmeric",
+           "unit": "g",
+           "quantity": 3.0
+          },
+          {
+           "name": "black pepper",
+           "unit": "g",
+           "quantity": 2.0
+          }
+         ],
+         "Calories": "749.4",
+         "Protein": "40.9",
+         "Carbohydrates": "94.8",
+         "Total Fat": "24.6",
+         "Sodium": "12.2",
+         "Saturated Fat": "2.7",
+         "Cholesterol": "0",
+         "Sugar": "7.9",
+         "Calcium": "191.9",
+         "Iron": "9.7",
+         "Potassium": "1461.7",
+         "Vitamin C": "0",
+         "Vitamin E": "0.7",
+         "Vitamin D": "0",
+         "cautions": [
+          "Cereals",
+          "Flour",
+          "Gluten",
+          "Soy",
+          "Soya"
+         ],
+         "diet_labels": [
+          "Pescetarian",
+          "Vegetarian",
+          "Vegan"
+         ],
+         "instructions": [
+          "1. Pour 800 ml water into a pot, reserving none aside, and bring to a rolling boil over high heat; add 100 g pasta and cook according to package timing until al dente, about 10-12 minutes, stirring occasionally.",
+          "2. While the pasta cooks, set a small saucepan aside for the sauce; when the pasta is about 2 minutes from done, ladle out 150 ml of the boiling water from the pot into a heatproof cup and set it near the saucepan for the sauce.",
+          "3. Drain the pasta in a colander, then return the empty pot to the stove.",
+          "4. In the small saucepan, whisk 55 g soy flour with the reserved 150 ml hot water until you have a smooth, lump-free slurry with no dry pockets.",
+          "5. Place the saucepan over low-medium heat and whisk in 3 g Turmeric, stirring constantly as the mixture heats and thickens into a smooth, golden, glossy sauce, about 4-5 minutes; it should coat the back of a spoon like a thick cheese sauce.",
+          "6. Remove the saucepan from the heat and whisk in 18 g flaxseed oil until the sauce turns glossy, silky and fully emulsified.",
+          "7. Add the drained pasta back into the pot, pour the soy flour-turmeric sauce over it, and toss with tongs or a spatula until every strand is evenly coated in the golden sauce.",
+          "8. Sprinkle 2 g black pepper over the pasta and toss once more to distribute it evenly throughout the dish.",
+          "9. Transfer the pasta to a serving bowl and serve immediately while hot and steaming."
+         ],
+         "main_ingredients": [
+          "pasta",
+          "soy flour"
+         ],
+         "short_description": "Warm bowl with pasta and soy flour.",
+         "long_description": "Al dente pasta is tossed in a thick, golden sauce built from toasted soy flour and turmeric, giving it a savory, almost cheesy richness. A finish of flaxseed oil adds a silky, nutty depth, while cracked black pepper sharpens every bite. It's a comforting, earthy bowl perfect for a cozy weeknight dinner.",
+         "vitamin_mineral_claims": [
+          "Source of Calcium",
+          "High in Iron",
+          "High in Potassium"
+         ],
+         "why_this_works_for_you": "The soy flour sauce thickens into a genuinely creamy, clingy coating without needing dairy, so every strand of pasta gets rich, golden flavor in each bite. Turmeric lends warm color and earthiness while black pepper keeps things lively, and the whole dish comes together in one pot with straightforward stovetop steps, making it an easy, satisfying dinner to pull off on a busy evening.",
+         "scientific_evidence_support": [
+          {
+           "source_url": "https://medlineplus.gov/carbohydrates.html",
+           "description": "Pasta is associated with evidence related to triglycerides."
+          },
+          {
+           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2833354/",
+           "description": "Soy flour is linked to evidence that may decrease ldl cholesterol."
+          }
+         ]
+        }
+       }
+      ]
+     }
+    }
+   }
+  ],
+  "selection": {
+   "source": "ai_rds_recipe_pool",
+   "selected_count": 9,
+   "selected_recipe_ids": [
+    "1fc9d71e-8e47-484f-95f8-459d6de36fcb",
+    "3a179bb6-ac42-4e23-9fc2-127b4fea96f7",
+    "e0921c2c-463a-4cdc-87e1-114c583658dc",
+    "45ad6df7-b0b1-40dc-aa2c-9116cf79a3e9",
+    "6629d307-c0b3-4bb6-b866-e57ea2e22570",
+    "65153113-0355-43f0-9749-08fb29f51ef4",
+    "50083220-4189-4ee9-b2ef-07751fde8e75",
+    "2555bff8-000f-43af-a4fb-086f8b2d65dc",
+    "9020bf9b-0cf0-4ca3-8596-cb473c22e826"
+   ]
+  },
+  "recipe_ids": [
+   "1fc9d71e-8e47-484f-95f8-459d6de36fcb",
+   "3a179bb6-ac42-4e23-9fc2-127b4fea96f7",
+   "e0921c2c-463a-4cdc-87e1-114c583658dc",
+   "45ad6df7-b0b1-40dc-aa2c-9116cf79a3e9",
+   "6629d307-c0b3-4bb6-b866-e57ea2e22570",
+   "65153113-0355-43f0-9749-08fb29f51ef4",
+   "50083220-4189-4ee9-b2ef-07751fde8e75",
+   "2555bff8-000f-43af-a4fb-086f8b2d65dc",
+   "9020bf9b-0cf0-4ca3-8596-cb473c22e826"
+  ],
+  "availability": {
+   "complete": true,
+   "meal_counts": {
+    "breakfast": 3,
+    "lunch": 3,
+    "dinner": 3
+   },
+   "shortages": {},
+   "required_total": 9,
+   "available_total": 9,
+   "missing_total": 0
+  },
+  "repeat_window_days": 15,
+  "recently_served_excluded": 0,
+  "repeat_window_relaxed": false
+ }
+}

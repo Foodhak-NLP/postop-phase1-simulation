@@ -1,0 +1,17 @@
+# Secrets — never commit. The vendored config reads these from the environment
+# or Streamlit's secrets panel instead.
+.env
+.streamlit/secrets.toml
+
+# Virtual environments
+.venv/
+venv/
+phase1/
+
+__pycache__/
+*.pyc
+.pytest_cache/
+
+.DS_Store
+.logs.txt
+docs/

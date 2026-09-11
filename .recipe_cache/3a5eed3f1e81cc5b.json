@@ -1,0 +1,914 @@
+{
+ "fetched_at": "2026-09-11T17:52:56",
+ "selection": {
+  "schema_version": "phase1_recipe_selection_v2_recipe_pool",
+  "healing_phase": "INFLAMMATION",
+  "macro_profile_version": "phase1_v1",
+  "nss_escalation": "none",
+  "recipes_per_meal": 3,
+  "meals": [
+   "breakfast",
+   "lunch",
+   "dinner"
+  ],
+  "requested_total": 9,
+  "status": "ok",
+  "profile_used": {
+   "gender": "male",
+   "age": 45.0,
+   "weight_kg": 80.0,
+   "height_cm": 178.0,
+   "dietary_restrictions": [],
+   "allergens": []
+  },
+  "source": "ai_rds_recipe_pool",
+  "date": "2026-09-11",
+  "summary": "Approved profile-compatible recipes selected from the AI-RDS recipe pool for the current healing phase.",
+  "days": [
+   {
+    "day": 1,
+    "date": "2026-09-11",
+    "healing_phase": "INFLAMMATION",
+    "recommended_recipes": {
+     "breakfast": {
+      "recommended_meals": [
+       {
+        "action_space": "INFLAMMATION",
+        "macro_profile_version": "phase1_v1",
+        "recipe": {
+         "summary": "A creamy cocoa and soy porridge warmed through with turmeric and finished with a scatter of crushed potato chips for a salty, crunchy contrast.",
+         "food_title": "Cocoa Soy Porridge with Turmeric and Potato Chip Crumble",
+         "mealType": [
+          "breakfast"
+         ],
+         "servings": "1",
+         "ready_in_minutes": "15",
+         "ingredients": [
+          {
+           "name": "soy flour",
+           "unit": "g",
+           "quantity": 38.1
+          },
+          {
+           "name": "cocoa",
+           "unit": "g",
+           "quantity": 22.1
+          },
+          {
+           "name": "potato chips",
+           "unit": "g",
+           "quantity": 31.8
+          },
+          {
+           "name": "Turmeric",
+           "unit": "g",
+           "quantity": 1.3
+          }
+         ],
+         "Calories": "351",
+         "Protein": "25.7",
+         "Carbohydrates": "46.9",
+         "Total Fat": "13.1",
+         "Sodium": "11",
+         "Saturated Fat": "3.6",
+         "Cholesterol": "0",
+         "Sugar": "4.1",
+         "Calcium": "145.8",
+         "Iron": "7.3",
+         "Potassium": "1712.4",
+         "Vitamin C": "8.2",
+         "Vitamin E": "2",
+         "Vitamin D": "0",
+         "cautions": [
+          "Flour",
+          "Soy",
+          "Soya"
+         ],
+         "diet_labels": [
+          "Gluten Free",
+          "Pescetarian",
+          "Vegetarian",
+          "Vegan"
+         ],
+         "instructions": [
+          "1. Measure 220 ml water into a small saucepan and bring to a gentle simmer over medium heat.",
+          "2. While the water heats, whisk 38.1 g soy flour and 22.1 g cocoa together in a bowl, then spoon in a small amount of the hot water from the pan and whisk until you have a smooth, lump-free paste.",
+          "3. Whisk the paste back into the simmering water along with 1.3 g Turmeric, stirring constantly and scraping the bottom of the pan so nothing catches.",
+          "4. Reduce the heat to low-medium and cook for 5-7 minutes, stirring frequently, until the mixture thickens into a smooth, creamy porridge that coats the back of a spoon.",
+          "5. Remove the pan from the heat and pour the porridge into a serving bowl.",
+          "6. Crush 31.8 g potato chips lightly between your fingers and scatter them over the surface of the porridge right before serving so they stay crisp.",
+          "7. Serve the porridge warm immediately, spooning through the chip crumble as you eat for bursts of salty crunch against the creamy cocoa base."
+         ],
+         "main_ingredients": [
+          "soy flour",
+          "cocoa"
+         ],
+         "short_description": "Creamy turmeric cocoa porridge with a crunchy chip topping.",
+         "long_description": "Soy flour and cocoa carry this pescatarian breakfast, cooked down into a creamy porridge and finished with Turmeric. Potato chips rounds things out. It comes together in about 15 minutes and makes 1 serving.",
+         "vitamin_mineral_claims": [
+          "Source of Calcium",
+          "High in Iron",
+          "High in Potassium",
+          "Source of Vitamin E"
+         ],
+         "why_this_works_for_you": "The soy flour and cocoa base thickens into a rich, velvety texture that feels indulgent for breakfast, while turmeric keeps the flavor from tipping into pure dessert territory. Crushed potato chips on top add a crunchy, salty finish that contrasts nicely with the smooth porridge, and the whole thing comes together quickly in one saucepan.",
+         "scientific_evidence_support": [
+          {
+           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2833354/",
+           "description": "Soy flour is linked to evidence that may decrease ldl cholesterol."
+          },
+          {
+           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10187567/",
+           "description": "Cocoa is linked to evidence that may decrease triglycerides."
+          }
+         ]
+        }
+       },
+       {
+        "action_space": "INFLAMMATION",
+        "macro_profile_version": "phase1_v1",
+        "recipe": {
+         "summary": "A creamy bulgur and soy flour porridge turned golden with turmeric and finished with a silky touch of canola oil.",
+         "food_title": "Turmeric Bulgur Porridge with Soy Flour and Canola Oil",
+         "mealType": [
+          "breakfast"
+         ],
+         "servings": "1",
+         "ready_in_minutes": "20",
+         "ingredients": [
+          {
+           "name": "bulgur",
+           "unit": "g",
+           "quantity": 46.4
+          },
+          {
+           "name": "soy flour",
+           "unit": "g",
+           "quantity": 41.3
+          },
+          {
+           "name": "canola oil",
+           "unit": "g",
+           "quantity": 11.3
+          },
+          {
+           "name": "Turmeric",
+           "unit": "g",
+           "quantity": 1.1
+          }
+         ],
+         "Calories": "415.4",
+         "Protein": "26.4",
+         "Carbohydrates": "48.6",
+         "Total Fat": "15.6",
+         "Sodium": "11.9",
+         "Saturated Fat": "1.5",
+         "Cholesterol": "0",
+         "Sugar": "4.1",
+         "Calcium": "135.8",
+         "Iron": "5.1",
+         "Potassium": "1076",
+         "Vitamin C": "0",
+         "Vitamin E": "2.3",
+         "Vitamin D": "0",
+         "cautions": [
+          "Cereals",
+          "Flour",
+          "Gluten",
+          "Soy",
+          "Soya"
+         ],
+         "diet_labels": [
+          "Pescetarian",
+          "Vegetarian",
+          "Vegan"
+         ],
+         "instructions": [
+          "1. Measure 350 ml water into a small saucepan and bring it to a boil over medium-high heat.",
+          "2. Stir in 46.4 g bulgur, reduce the heat to low, cover, and simmer for 10-12 minutes, stirring occasionally, until the grains are tender and most of the water has been absorbed.",
+          "3. While the bulgur simmers, place 41.3 g soy flour in a small bowl and whisk in a portion of the hot liquid ladled from the saucepan until a smooth, lump-free slurry forms, then pour the slurry back into the saucepan and stir to combine.",
+          "4. Sprinkle in 1.1 g Turmeric and stir continuously over low heat for 3-4 minutes, until the porridge turns a warm golden color and thickens to a creamy, spoonable consistency.",
+          "5. Remove the saucepan from the heat and stir in 11.3 g canola oil until it is fully incorporated and the porridge looks glossy and silky.",
+          "6. Let the porridge rest off the heat for 1-2 minutes so it thickens slightly, then spoon into a bowl and serve warm."
+         ],
+         "main_ingredients": [
+          "bulgur",
+          "soy flour"
+         ],
+         "short_description": "Creamy golden turmeric bulgur porridge.",
+         "long_description": "This warming breakfast porridge simmers hearty bulgur with soy flour until thick and creamy, then takes on a golden hue and earthy warmth from turmeric. A finish of canola oil lends a smooth, silky texture that makes each spoonful feel rich and comforting, perfect for a cozy morning.",
+         "vitamin_mineral_claims": [
+          "Source of Calcium",
+          "High in Iron",
+          "High in Potassium",
+          "Source of Vitamin E"
+         ],
+         "why_this_works_for_you": "The combination of tender bulgur and soy flour builds a naturally thick, satisfying texture without any fuss, while the turmeric adds gentle warmth and color that makes the porridge feel special rather than plain. It's a simple one-pot method you can manage easily before breakfast, finishing with a silky, glossy spoonful of canola oil for a comforting last touch.",
+         "scientific_evidence_support": []
+        }
+       },
+       {
+        "action_space": "INFLAMMATION",
+        "macro_profile_version": "phase1_v1",
+        "recipe": {
+         "summary": "A creamy, savory porridge of simmered bulgur and toasty soy flour, finished with a peppery bite and a silky drizzle of flaxseed oil.",
+         "food_title": "Soy and Bulgur Breakfast Porridge with Flaxseed Oil",
+         "mealType": [
+          "breakfast"
+         ],
+         "servings": "1",
+         "ready_in_minutes": "20",
+         "ingredients": [
+          {
+           "name": "bulgur",
+           "unit": "g",
+           "quantity": 46.4
+          },
+          {
+           "name": "soy flour",
+           "unit": "g",
+           "quantity": 41.3
+          },
+          {
+           "name": "flaxseed oil",
+           "unit": "g",
+           "quantity": 11.3
+          },
+          {
+           "name": "black pepper",
+           "unit": "g",
+           "quantity": 1.2
+          }
+         ],
+         "Calories": "414.8",
+         "Protein": "26.4",
+         "Carbohydrates": "48.6",
+         "Total Fat": "15.6",
+         "Sodium": "11.8",
+         "Saturated Fat": "1.7",
+         "Cholesterol": "0",
+         "Sugar": "4",
+         "Calcium": "139.3",
+         "Iron": "4.6",
+         "Potassium": "1068.9",
+         "Vitamin C": "0",
+         "Vitamin E": "0.3",
+         "Vitamin D": "0",
+         "cautions": [
+          "Cereals",
+          "Flour",
+          "Gluten",
+          "Soy",
+          "Soya"
+         ],
+         "diet_labels": [
+          "Pescetarian",
+          "Vegetarian",
+          "Vegan"
+         ],
+         "instructions": [
+          "1. Measure 350 ml water into a small saucepan and bring it to a boil over medium-high heat.",
+          "2. Stir in 46.4 g bulgur, reduce the heat to low so the water is at a gentle simmer, cover the pan, and cook for 10-12 minutes, stirring once or twice, until the bulgur is tender and most of the liquid has been absorbed.",
+          "3. In a small bowl, whisk 41.3 g soy flour with a few spoonfuls of the hot bulgur mixture until you have a smooth, lump-free slurry.",
+          "4. Stir the slurry back into the saucepan, mixing well to combine it evenly with the bulgur.",
+          "5. Keep the pan over low heat and cook for 2-3 minutes, stirring constantly, until the mixture thickens into a creamy, cohesive porridge with no raw flour taste.",
+          "6. Remove the pan from the heat and stir in 1.2 g black pepper until evenly distributed.",
+          "7. Spoon the porridge into a bowl and drizzle 11.3 g flaxseed oil over the top just before serving so its flavor stays fresh.",
+          "8. Serve warm as a hearty savory breakfast porridge."
+         ],
+         "main_ingredients": [
+          "bulgur",
+          "soy flour"
+         ],
+         "short_description": "Creamy savory bulgur and soy flour porridge with flaxseed oil.",
+         "long_description": "Bulgur simmers until tender, then soy flour is whisked in to thicken the pot into a warm, nutty, spoonable porridge. Black pepper adds a gentle peppery lift, while a finishing drizzle of flaxseed oil brings a rich, silky note on top. It's a satisfying, savory way to start the day when you want something heartier than a sweet breakfast.",
+         "vitamin_mineral_claims": [
+          "Source of Calcium",
+          "High in Iron",
+          "High in Potassium"
+         ],
+         "why_this_works_for_you": "The bulgur gives this porridge a soft, chewy bite while the soy flour thickens it into a creamy, satisfying base, so the texture feels substantial rather than watery. Black pepper keeps the flavor savory and interesting, and stirring in the flaxseed oil right at the end means you get its full nutty richness instead of it cooking away. It's a simple one-pot method that comes together quickly, making it an easy savory alternative to sweet breakfast bowls.",
+         "scientific_evidence_support": [
+          {
+           "source_url": "https://ods.od.nih.gov/HealthInformation/dictionary.aspx",
+           "description": "Bulgur is linked to evidence that may decrease hba1c."
+          },
+          {
+           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2833354/",
+           "description": "Soy flour is linked to evidence that may decrease ldl cholesterol."
+          }
+         ]
+        }
+       }
+      ]
+     },
+     "lunch": {
+      "recommended_meals": [
+       {
+        "action_space": "INFLAMMATION",
+        "macro_profile_version": "phase1_v1",
+        "recipe": {
+         "summary": "A soft, golden flatbread of soy flour and whole wheat flour, warmed through with turmeric and finished with a rich olive oil sheen, ready for a satisfying lunch.",
+         "food_title": "Turmeric Soy & Whole Wheat Flatbread with Olive Oil",
+         "mealType": [
+          "lunch"
+         ],
+         "servings": "1",
+         "ready_in_minutes": "25",
+         "ingredients": [
+          {
+           "name": "soy flour",
+           "unit": "g",
+           "quantity": 71.5
+          },
+          {
+           "name": "whole wheat flour",
+           "unit": "g",
+           "quantity": 75.1
+          },
+          {
+           "name": "extra virgin olive oil",
+           "unit": "g",
+           "quantity": 22.1
+          },
+          {
+           "name": "Turmeric",
+           "unit": "g",
+           "quantity": 2.2
+          }
+         ],
+         "Calories": "723.4",
+         "Protein": "45.7",
+         "Carbohydrates": "77.4",
+         "Total Fat": "30.4",
+         "Sodium": "9",
+         "Saturated Fat": "4.3",
+         "Cholesterol": "0",
+         "Sugar": "7",
+         "Calcium": "233.2",
+         "Iron": "9.9",
+         "Potassium": "1812.8",
+         "Vitamin C": "0",
+         "Vitamin E": "4.2",
+         "Vitamin D": "0",
+         "cautions": [
+          "Cereals",
+          "Flour",
+          "Gluten",
+          "Soy",
+          "Soya"
+         ],
+         "diet_labels": [
+          "Pescetarian",
+          "Vegetarian",
+          "Vegan"
+         ],
+         "instructions": [
+          "1. In a mixing bowl, whisk together 71.5 g soy flour, 75.1 g whole wheat flour and 2.2 g Turmeric until the spice is evenly distributed throughout the flours.",
+          "2. Pour in 45 ml of the 90 ml water total and mix with your fingers, then add the remaining 45 ml water gradually while kneading; drizzle in 11 g of the 22.1 g extra virgin olive oil as you knead, working the dough for 4-5 minutes until it turns smooth and pliable. Cover and rest the dough for 5 minutes so the soy flour fully hydrates.",
+          "3. Divide the rested dough into two equal portions and roll each on a lightly floured surface into a thin round about 18-20 cm in diameter.",
+          "4. Heat a heavy skillet or tawa over medium heat and brush the surface with about 3 g of the remaining olive oil.",
+          "5. Lay one round in the hot pan and cook for 2-3 minutes; when small golden-brown spots appear on the underside, flip and brush the cooked side with about 4 g olive oil. Press gently with a spatula and cook the second side for another 2-3 minutes until golden spots form and the bread is cooked through but still soft and pliable.",
+          "6. Repeat with the second round, brushing the pan with about 2 g olive oil before adding the dough and brushing the top with the final 2.1 g olive oil once flipped, cooking each side 2-3 minutes as before until fully cooked and lightly charred in spots.",
+          "7. Stack the two cooked flatbreads and keep them warm under a clean cloth for a few minutes before serving.",
+          "8. Serve warm as a hearty lunch flatbread on its own or alongside a vegetable side."
+         ],
+         "main_ingredients": [
+          "soy flour",
+          "whole wheat flour"
+         ],
+         "short_description": "Golden turmeric soy-wheat flatbread, pan-cooked in olive oil.",
+         "long_description": "This flatbread pairs the nutty depth of soy flour with hearty whole wheat flour, brought to life with a warm, earthy turmeric hue and a rich olive oil finish. Rolled thin and cooked on a hot skillet until golden-brown spots appear, it stays soft and pliable inside - perfect for tearing and scooping at lunchtime.</long_description>\n<parameter name=\"why_this_works_for_you\">The combination of soy flour and whole wheat flour gives this flatbread a substantial, satisfying chew, while turmeric lends a warm color and gentle earthiness that keeps every bite interesting. Cooking it on a hot skillet with olive oil builds golden-brown spots and a soft, pliable texture that's easy to fold or tear, making it a quick, comforting lunch you can pull together with simple pantry staples.",
+         "vitamin_mineral_claims": [
+          "Source of Calcium",
+          "High in Iron",
+          "High in Potassium",
+          "High in Vitamin E"
+         ],
+         "why_this_works_for_you": "Soy flour and whole wheat flour give this lunch its substance, Turmeric keeps it from tasting plain, and it is on the table in about 25 minutes \u2014 a straightforward lunch you can cook on a weeknight.",
+         "scientific_evidence_support": [
+          {
+           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2833354/",
+           "description": "Soy flour is linked to evidence that may decrease ldl cholesterol."
+          },
+          {
+           "source_url": "https://medlineplus.gov/ency/article/002093.htm",
+           "description": "Whole-wheat flour is linked to evidence that may decrease hba1c."
+          }
+         ]
+        }
+       },
+       {
+        "action_space": "INFLAMMATION",
+        "macro_profile_version": "phase1_v1",
+        "recipe": {
+         "summary": "A hearty savory skillet cake where nutty chickpea batter and crumbled soy burger cook into one golden, butter-browned round in about 25 minutes.",
+         "food_title": "Spiced Chickpea Flour & Soy Patty Skillet Cake",
+         "mealType": [
+          "lunch"
+         ],
+         "servings": "1",
+         "ready_in_minutes": "25",
+         "ingredients": [
+          {
+           "name": "chickpea flour",
+           "unit": "g",
+           "quantity": 116.6
+          },
+          {
+           "name": "soy burgers",
+           "unit": "g",
+           "quantity": 100.8
+          },
+          {
+           "name": "salted butter",
+           "unit": "g",
+           "quantity": 18.0
+          }
+         ],
+         "Calories": "758.8",
+         "Protein": "42.1",
+         "Carbohydrates": "81.8",
+         "Total Fat": "28.8",
+         "Sodium": "650.4",
+         "Saturated Fat": "11.4",
+         "Cholesterol": "43.8",
+         "Sugar": "13.7",
+         "Calcium": "193.9",
+         "Iron": "8.1",
+         "Potassium": "1326.4",
+         "Vitamin C": "4.5",
+         "Vitamin E": "1.6",
+         "Vitamin D": "0",
+         "cautions": [
+          "Dairy",
+          "Flour",
+          "Soy",
+          "Soya"
+         ],
+         "diet_labels": [
+          "Gluten Free",
+          "Pescetarian",
+          "Vegetarian"
+         ],
+         "instructions": [
+          "1. Crumble 100.8 g soy burgers into small, even pieces in a mixing bowl and set aside.",
+          "2. In a separate bowl, whisk 116.6 g chickpea flour with 90 ml of the 120 ml water (total process water) until you have a thick, smooth, lump-free batter about the consistency of pancake batter.",
+          "3. Fold the crumbled soy burger pieces into the chickpea batter until evenly distributed; if the mixture feels too stiff to spread, stir in the remaining 30 ml water to loosen it slightly.",
+          "4. Place a nonstick skillet over medium heat and add 9 g of the 18 g salted butter, swirling the pan so it melts evenly and coats the surface.",
+          "5. Spoon the chickpea-soy batter into the skillet and spread it into a thick, even round about 1.5 cm thick.",
+          "6. Cook undisturbed for 4-5 minutes, until the underside is deep golden brown and the edges look set and pull slightly away from the pan.",
+          "7. Carefully slide a spatula underneath and flip the cake in one confident motion.",
+          "8. Add the remaining 9 g salted butter to the skillet, tilting the pan so it melts and runs under the cake's edges.",
+          "9. Cook the second side for another 4-5 minutes, reducing the heat slightly if it is browning too quickly, until golden brown and the center feels firm (not wet or spongy) when pressed lightly.",
+          "10. Slide the skillet cake onto a board, let it rest for 2 minutes so it firms up further, then slice into wedges and serve warm."
+         ],
+         "main_ingredients": [
+          "chickpea flour",
+          "soy burgers"
+         ],
+         "short_description": "Golden chickpea-soy skillet cake with browned butter edges.",
+         "long_description": "Chickpea flour whisked into a smooth batter meets crumbled soy burger for a thick, hearty pancake that turns deep golden in a buttery skillet. Sliced into wedges while still warm, it has a firm, satisfying bite with a lightly nutty, savory flavor perfect for a quick weekday lunch.",
+         "vitamin_mineral_claims": [
+          "Source of Calcium",
+          "High in Iron",
+          "High in Potassium"
+         ],
+         "why_this_works_for_you": "The chickpea batter binds the crumbled soy burger into a single tender-yet-firm cake, so you get a filling, protein-rich lunch without juggling multiple components. Browning both sides in salted butter builds a golden crust and rich flavor while the center stays soft, and the whole thing comes together in one skillet with minimal cleanup.",
+         "scientific_evidence_support": [
+          {
+           "source_url": "https://health.clevelandclinic.org/resistant-starch",
+           "description": "Chickpea flour is linked to evidence that may decrease triglycerides."
+          },
+          {
+           "source_url": "https://medlineplus.gov/ency/article/007847.htm",
+           "description": "Soy burgers are associated with evidence related to triglycerides."
+          }
+         ]
+        }
+       },
+       {
+        "action_space": "INFLAMMATION",
+        "macro_profile_version": "phase1_v1",
+        "recipe": {
+         "summary": "A warmly spiced split pea dal simmered until thick and creamy, finished with rich safflower oil and topped with golden toasted pumpkin seeds.",
+         "food_title": "Turmeric Split Pea Dal with Toasted Pumpkin Seeds",
+         "mealType": [
+          "lunch"
+         ],
+         "servings": "1",
+         "ready_in_minutes": "30",
+         "ingredients": [
+          {
+           "name": "split peas",
+           "unit": "g",
+           "quantity": 125.0
+          },
+          {
+           "name": "pumpkin seeds",
+           "unit": "g",
+           "quantity": 43.0
+          },
+          {
+           "name": "safflower oil",
+           "unit": "g",
+           "quantity": 4.4
+          },
+          {
+           "name": "Turmeric",
+           "unit": "g",
+           "quantity": 2.5
+          }
+         ],
+         "Calories": "741.9",
+         "Protein": "42.1",
+         "Carbohydrates": "83.3",
+         "Total Fat": "30.4",
+         "Sodium": "9.9",
+         "Saturated Fat": "4.6",
+         "Cholesterol": "0",
+         "Sugar": "4.6",
+         "Calcium": "81.5",
+         "Iron": "11.1",
+         "Potassium": "1465.3",
+         "Vitamin C": "3.1",
+         "Vitamin E": "2.7",
+         "Vitamin D": "0",
+         "cautions": [],
+         "diet_labels": [
+          "Gluten Free",
+          "Pescetarian",
+          "Vegetarian",
+          "Vegan"
+         ],
+         "instructions": [
+          "1. Rinse 125 g split peas under cold water until the water runs mostly clear, then tip them into a saucepan with 450 ml water (the total process water for this recipe).",
+          "2. Bring the pan to a boil over high heat, then stir in 2.5 g Turmeric, reduce the heat to a gentle simmer, and cook uncovered for about 18-20 minutes, stirring occasionally, until the peas soften and break down into a thick, porridge-like dal.",
+          "3. While the dal simmers, toast 43 g pumpkin seeds in a dry skillet over medium heat for 3-4 minutes, tossing frequently, until they puff slightly, turn golden and smell nutty; tip them out of the skillet and set aside.",
+          "4. Once the peas are fully tender and the dal has thickened to a heavy, spoonable consistency, remove the pan from the heat and stir in 4.4 g safflower oil to enrich the dal and carry the turmeric's warm colour and flavour through the mixture.",
+          "5. Ladle the finished dal into a bowl and scatter the toasted pumpkin seeds over the top for crunch and contrast.",
+          "6. Serve warm as a hearty lunch bowl."
+         ],
+         "main_ingredients": [
+          "split peas",
+          "pumpkin seeds"
+         ],
+         "short_description": "Turmeric split pea dal topped with toasted pumpkin seeds.",
+         "long_description": "Split peas simmer with turmeric until they collapse into a thick, earthy dal, then get a finishing swirl of safflower oil for richness. A scattering of toasted pumpkin seeds on top adds crunch and a nutty edge to every spoonful, making this a satisfying, wholesome lunch bowl.",
+         "vitamin_mineral_claims": [
+          "High in Iron",
+          "High in Potassium",
+          "Source of Vitamin E"
+         ],
+         "why_this_works_for_you": "The long, gentle simmer breaks the split peas down into a naturally creamy, spoonable dal without any effort beyond the occasional stir, while turmeric keeps the flavour warm and earthy rather than flat. Toasting the pumpkin seeds separately gives you a crisp, golden topping that plays against the soft dal, and the swirl of safflower oil at the end ties the dish together with a rounded richness - a comforting, textured bowl that comes together well within a lunch break.",
+         "scientific_evidence_support": [
+          {
+           "source_url": "https://medlineplus.gov/ency/article/002469.htm",
+           "description": "Split peas are associated with evidence related to triglycerides."
+          },
+          {
+           "source_url": "https://www.mensfitness.com/nutrition/supplement-guide-sesamin",
+           "description": "Pumpkin seeds are linked to evidence that may decrease ldl cholesterol."
+          }
+         ]
+        }
+       }
+      ]
+     },
+     "dinner": {
+      "recommended_meals": [
+       {
+        "action_space": "INFLAMMATION",
+        "macro_profile_version": "phase1_v1",
+        "recipe": {
+         "summary": "A slow-simmered split pea stew turned golden with turmeric and finished with toasted peanut crunch and a nutty hit of sesame oil.",
+         "food_title": "Spiced Split Pea and Peanut Dal with Sesame",
+         "mealType": [
+          "dinner"
+         ],
+         "servings": "1",
+         "ready_in_minutes": "40",
+         "ingredients": [
+          {
+           "name": "split peas",
+           "unit": "g",
+           "quantity": 136.2
+          },
+          {
+           "name": "peanut",
+           "unit": "g",
+           "quantity": 40.8
+          },
+          {
+           "name": "sesame oil",
+           "unit": "g",
+           "quantity": 5.1
+          },
+          {
+           "name": "Turmeric",
+           "unit": "g",
+           "quantity": 2.0
+          },
+          {
+           "name": "black pepper",
+           "unit": "g",
+           "quantity": 1.5
+          }
+         ],
+         "Calories": "780.5",
+         "Protein": "42.1",
+         "Carbohydrates": "93",
+         "Total Fat": "30.4",
+         "Sodium": "11.7",
+         "Saturated Fat": "4",
+         "Cholesterol": "0",
+         "Sugar": "6",
+         "Calcium": "109.1",
+         "Iron": "8.7",
+         "Potassium": "1504.3",
+         "Vitamin C": "2.5",
+         "Vitamin E": "3",
+         "Vitamin D": "0",
+         "cautions": [
+          "Nut",
+          "Peanuts",
+          "Sesame"
+         ],
+         "diet_labels": [
+          "Gluten Free",
+          "Pescetarian",
+          "Vegetarian",
+          "Vegan"
+         ],
+         "instructions": [
+          "1. Rinse 136.2 g split peas thoroughly under cold water until the water runs mostly clear, then drain well.",
+          "2. In a saucepan, combine the rinsed split peas with 480 ml of the 600 ml total process water and bring to a boil over medium-high heat, then reduce to a gentle simmer.",
+          "3. Stir in 2 g Turmeric and 1.5 g black pepper, cover the pan partially, and simmer for 25-30 minutes, stirring occasionally, until the split peas are soft and beginning to break down into a thick, porridge-like consistency; pour in the remaining 120 ml of water during this time if the mixture becomes too thick before the peas are fully tender.",
+          "4. While the split peas cook, dry-toast 40.8 g peanut in a small skillet over medium heat for 3-4 minutes, shaking the pan occasionally, until fragrant and lightly golden, then transfer to a board and roughly chop.",
+          "5. Once the split peas are tender and creamy, remove the saucepan from the heat and stir in 5.1 g sesame oil until glossy and evenly incorporated.",
+          "6. Ladle the dal into a bowl and scatter the toasted chopped peanuts over the top.",
+          "7. Serve hot as a warming, protein-rich dinner."
+         ],
+         "main_ingredients": [
+          "split peas",
+          "peanut"
+         ],
+         "short_description": "Turmeric split pea stew with toasted peanuts and sesame oil.",
+         "long_description": "Split peas simmer down into a thick, creamy stew, coloured deep gold by turmeric and given a gentle warmth from black pepper. A scattering of toasted peanuts adds crunch against the soft peas, while a finishing drizzle of sesame oil brings a rich, nutty aroma to every spoonful.",
+         "vitamin_mineral_claims": [
+          "High in Iron",
+          "High in Potassium",
+          "Source of Vitamin E"
+         ],
+         "why_this_works_for_you": "The long, gentle simmer breaks the split peas down into a naturally thick, satisfying stew without needing any thickeners, while the toasted peanuts stay crisp on top for contrast in every bite. It's a low-fuss dinner: mostly hands-off simmering with just a quick peanut toast on the side, finished with a simple stir of sesame oil for a rounded, nutty aroma.",
+         "scientific_evidence_support": [
+          {
+           "source_url": "https://medlineplus.gov/ency/article/002469.htm",
+           "description": "Split peas are associated with evidence related to triglycerides."
+          },
+          {
+           "source_url": "https://pubs.acs.org/doi/10.1021/jf034815d",
+           "description": "Peanut is linked to evidence that may decrease ldl cholesterol."
+          }
+         ]
+        }
+       },
+       {
+        "action_space": "INFLAMMATION",
+        "macro_profile_version": "phase1_v1",
+        "recipe": {
+         "summary": "A hearty pan-crisped flatbread of soy flour and whole wheat bread crumbs, seasoned with cracked black pepper and finished with a drizzle of olive oil.",
+         "food_title": "Soy Flour and Whole Wheat Flatbread with Olive Oil and Cracked Pepper",
+         "mealType": [
+          "dinner"
+         ],
+         "servings": "1",
+         "ready_in_minutes": "30",
+         "ingredients": [
+          {
+           "name": "soy flour",
+           "unit": "g",
+           "quantity": 79.7
+          },
+          {
+           "name": "whole wheat bread",
+           "unit": "g",
+           "quantity": 107.5
+          },
+          {
+           "name": "olive oil",
+           "unit": "g",
+           "quantity": 18.3
+          },
+          {
+           "name": "black pepper",
+           "unit": "g",
+           "quantity": 3.0
+          }
+         ],
+         "Calories": "760.8",
+         "Protein": "51.5",
+         "Carbohydrates": "77.4",
+         "Total Fat": "30.4",
+         "Sodium": "516.8",
+         "Saturated Fat": "4.4",
+         "Cholesterol": "0",
+         "Sugar": "13.6",
+         "Calcium": "375.1",
+         "Iron": "10.8",
+         "Potassium": "1857.4",
+         "Vitamin C": "0.2",
+         "Vitamin E": "3.3",
+         "Vitamin D": "0",
+         "cautions": [
+          "Cereals",
+          "Flour",
+          "Gluten",
+          "Soy",
+          "Soya"
+         ],
+         "diet_labels": [
+          "Pescetarian",
+          "Vegetarian",
+          "Vegan"
+         ],
+         "instructions": [
+          "1. Tear 107.5 g whole wheat bread into small pieces and pulse or mash it into coarse crumbs, then place the crumbs in a mixing bowl.",
+          "2. Add 79.7 g soy flour and 3 g black pepper to the bread crumbs and mix well to distribute evenly.",
+          "3. Pour in 100 ml water, the total process water for this recipe, adding it gradually while kneading by hand until a soft, cohesive dough forms that holds together but is not sticky.",
+          "4. Let the dough rest for 5 minutes so the crumbs and flour fully hydrate, then turn it onto a work surface and shape it into a single flat round disc about 1 cm thick.",
+          "5. Heat a nonstick or cast-iron skillet over medium heat and add half of the 18.3 g olive oil, swirling the pan until the oil is shimmering.",
+          "6. Place the flatbread in the skillet and cook for 4-5 minutes per side, pressing gently with a spatula, until deeply golden brown, cooked through in the center and crisp at the edges.",
+          "7. Transfer the hot flatbread to a plate and drizzle the remaining olive oil from the 18.3 g measured earlier over the top just before serving to add richness and shine.",
+          "8. Slice into wedges and serve warm as a hearty savory flatbread dinner."
+         ],
+         "main_ingredients": [
+          "soy flour",
+          "whole wheat bread"
+         ],
+         "short_description": "Pan-crisped soy flour and whole wheat flatbread with black pepper.",
+         "long_description": "This flatbread comes together from soy flour and torn whole wheat bread worked into a soft dough, then pressed thin and pan-cooked until golden and crisp at the edges with a tender, chewy center. A finishing drizzle of olive oil adds shine and richness, while cracked black pepper gives it a warm, savory bite. It slices into wedges for a satisfying weeknight dinner.",
+         "vitamin_mineral_claims": [
+          "High in Calcium",
+          "High in Iron",
+          "High in Potassium",
+          "Source of Vitamin E"
+         ],
+         "why_this_works_for_you": "The combination of soy flour and whole wheat bread crumbs creates a dough that is easy to shape and forgiving to cook, so you get a flatbread with real chew and structure without any fuss. Pan-crisping in olive oil builds a deeply golden crust while the black pepper keeps every bite lively rather than flat, making this a simple, satisfying dish to pull together after a long day.",
+         "scientific_evidence_support": [
+          {
+           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2833354/",
+           "description": "Soy flour is linked to evidence that may decrease ldl cholesterol."
+          },
+          {
+           "source_url": "https://medlineplus.gov/carbohydrates.html",
+           "description": "Whole-wheat bread is associated with evidence related to triglycerides."
+          }
+         ]
+        }
+       },
+       {
+        "action_space": "INFLAMMATION",
+        "macro_profile_version": "phase1_v1",
+        "recipe": {
+         "summary": "A warm, golden-charred flatbread made from turmeric-spiced soy and rice flour, topped with softened savory anchovy for a satisfying pescetarian dinner.",
+         "food_title": "Turmeric Soy-Rice Flatbread with Warm Anchovy Topping",
+         "mealType": [
+          "dinner"
+         ],
+         "servings": "1",
+         "ready_in_minutes": "35",
+         "ingredients": [
+          {
+           "name": "soy flour",
+           "unit": "g",
+           "quantity": 74.6
+          },
+          {
+           "name": "Rice Flour",
+           "unit": "g",
+           "quantity": 69.9
+          },
+          {
+           "name": "anchovy",
+           "unit": "g",
+           "quantity": 24.7
+          },
+          {
+           "name": "olive oil",
+           "unit": "g",
+           "quantity": 19.3
+          },
+          {
+           "name": "Turmeric",
+           "unit": "g",
+           "quantity": 2.5
+          }
+         ],
+         "Calories": "761.9",
+         "Protein": "49.6",
+         "Carbohydrates": "78",
+         "Total Fat": "30.4",
+         "Sodium": "920",
+         "Saturated Fat": "4.6",
+         "Cholesterol": "21",
+         "Sugar": "7.5",
+         "Calcium": "282.1",
+         "Iron": "10.1",
+         "Potassium": "1948.4",
+         "Vitamin C": "0",
+         "Vitamin E": "4.5",
+         "Vitamin D": "0.4",
+         "cautions": [
+          "Fish",
+          "Flour",
+          "Soy",
+          "Soya"
+         ],
+         "diet_labels": [
+          "Gluten Free",
+          "Pescetarian"
+         ],
+         "instructions": [
+          "1. In a mixing bowl, whisk together 74.6 g soy flour, 69.9 g Rice Flour, and 2.5 g Turmeric until the turmeric color is evenly distributed through the flours.",
+          "2. Measure 110 ml water and warm it slightly, then pour 90 ml of it into the flour mixture, stirring with a spoon or your hand as you go. Add the remaining 20 ml gradually, stopping as soon as the mixture gathers into a soft, pliable dough that holds together but does not stick to your fingers.",
+          "3. Turn the dough onto a lightly floured surface and knead for 2-3 minutes, pressing and folding until it feels smooth and elastic. Cover the dough with a bowl or cloth and let it rest for 10 minutes.",
+          "4. Place the rested dough on a floured surface and roll it into one round or oval flatbread about 1/4 inch thick.",
+          "5. Set a dry skillet or griddle over medium-high heat until it feels hot when you hold your hand just above it. Brush one side of the rolled flatbread with half of the 19.3 g olive oil (about 9.5 g), then lay the flatbread oil-side down onto the hot skillet.",
+          "6. Cook the flatbread for 2-3 minutes, watching for golden brown spots to form on the underside and the surface to firm up. Flip it over, brush the second side with the remaining olive oil, and cook for another 2-3 minutes until the flatbread is cooked through, springy to the touch, and lightly charred in a few spots.",
+          "7. While the flatbread finishes cooking, finely chop 24.7 g anchovy fillets if they are not already prepared. Warm a small pan over low-medium heat for about 1 minute, add the chopped anchovy, and stir gently for 1 minute just until fragrant and slightly softened - no additional oil is needed since the flatbread's oil coating has been fully used.",
+          "8. Slide the flatbread onto a plate, scatter the warmed anchovy pieces evenly over the top, and serve immediately while still warm."
+         ],
+         "main_ingredients": [
+          "soy flour",
+          "Rice Flour"
+         ],
+         "short_description": "Turmeric flatbread topped with warm anchovy.",
+         "long_description": "Soy flour and rice flour come together into a soft, pliable dough tinted golden with turmeric, then griddled until it develops crisp charred spots and a springy chew. It's finished with gently warmed anchovy scattered over the top, giving each bite a savory, briny lift against the earthy, spiced dough. A simple one-serving flatbread that's ready to eat straight from the skillet.",
+         "vitamin_mineral_claims": [
+          "High in Calcium",
+          "High in Iron",
+          "High in Potassium",
+          "High in Vitamin E"
+         ],
+         "why_this_works_for_you": "The turmeric-flecked dough turns soft and chewy with golden charred spots once griddled, giving a satisfying contrast of textures in every bite. Warming the anchovy briefly before scattering it over the top brings out its savory depth without overpowering the earthy flour base, and the whole flatbread comes together with just a skillet and a few minutes of hands-on cooking - ideal for an easy weeknight dinner.",
+         "scientific_evidence_support": [
+          {
+           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2833354/",
+           "description": "Soy flour is linked to evidence that may decrease ldl cholesterol."
+          },
+          {
+           "source_url": "https://www.professionalsupplementcenter.com/curalin-advanced-glucose-support-by-curalife",
+           "description": "Rice flour is linked to evidence that may decrease hba1c."
+          }
+         ]
+        }
+       }
+      ]
+     }
+    }
+   }
+  ],
+  "selection": {
+   "source": "ai_rds_recipe_pool",
+   "selected_count": 9,
+   "selected_recipe_ids": [
+    "8b3d489d-c9c1-4225-8f5d-ba61d54c6596",
+    "35435e3f-68c5-4db9-aff8-f90be2c42d54",
+    "2fbfed72-45ff-4c85-b94b-b4e52b6ec934",
+    "137d417b-e359-422f-8d43-1e26dfc094fd",
+    "4d20e760-a3a6-494b-badf-10f58c536859",
+    "fb0a1bfc-2b8b-424c-8eaf-96dfc6884f63",
+    "100e9208-ce7c-4f84-8b94-267209b9fb55",
+    "9f104ef6-8dc0-4aa5-af78-6f9bc5733504",
+    "befdd3b8-bca0-47fd-9f4a-71665b467058"
+   ]
+  },
+  "recipe_ids": [
+   "8b3d489d-c9c1-4225-8f5d-ba61d54c6596",
+   "35435e3f-68c5-4db9-aff8-f90be2c42d54",
+   "2fbfed72-45ff-4c85-b94b-b4e52b6ec934",
+   "137d417b-e359-422f-8d43-1e26dfc094fd",
+   "4d20e760-a3a6-494b-badf-10f58c536859",
+   "fb0a1bfc-2b8b-424c-8eaf-96dfc6884f63",
+   "100e9208-ce7c-4f84-8b94-267209b9fb55",
+   "9f104ef6-8dc0-4aa5-af78-6f9bc5733504",
+   "befdd3b8-bca0-47fd-9f4a-71665b467058"
+  ],
+  "availability": {
+   "complete": true,
+   "meal_counts": {
+    "breakfast": 3,
+    "lunch": 3,
+    "dinner": 3
+   },
+   "shortages": {},
+   "required_total": 9,
+   "available_total": 9,
+   "missing_total": 0
+  },
+  "repeat_window_days": 15,
+  "recently_served_excluded": 0,
+  "repeat_window_relaxed": false
+ }
+}

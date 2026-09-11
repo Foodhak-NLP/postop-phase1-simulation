@@ -1,0 +1,83 @@
+{
+ "fetched_at": "2026-09-11T13:33:11",
+ "selection": {
+  "schema_version": "phase1_recipe_selection_v2_recipe_pool",
+  "healing_phase": "HAEMOSTASIS",
+  "macro_profile_version": "phase1_v1",
+  "nss_escalation": "none",
+  "recipes_per_meal": 3,
+  "meals": [
+   "breakfast",
+   "lunch",
+   "dinner"
+  ],
+  "requested_total": 9,
+  "status": "partial",
+  "profile_used": {
+   "gender": "male",
+   "age": 45.0,
+   "weight_kg": 80.0,
+   "height_cm": 178.0,
+   "dietary_restrictions": [],
+   "allergens": []
+  },
+  "source": "ai_rds_recipe_pool",
+  "date": "2026-09-11",
+  "summary": "Approved profile-compatible recipes selected from the AI-RDS recipe pool for the current healing phase.",
+  "days": [
+   {
+    "day": 1,
+    "date": "2026-09-11",
+    "healing_phase": "HAEMOSTASIS",
+    "recommended_recipes": {
+     "breakfast": {
+      "recommended_meals": []
+     },
+     "lunch": {
+      "recommended_meals": []
+     },
+     "dinner": {
+      "recommended_meals": []
+     }
+    }
+   }
+  ],
+  "selection": {
+   "source": "ai_rds_recipe_pool",
+   "selected_count": 0,
+   "selected_recipe_ids": []
+  },
+  "recipe_ids": [],
+  "availability": {
+   "complete": false,
+   "meal_counts": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+   },
+   "shortages": {
+    "breakfast": {
+     "required": 3,
+     "available": 0,
+     "missing": 3
+    },
+    "lunch": {
+     "required": 3,
+     "available": 0,
+     "missing": 3
+    },
+    "dinner": {
+     "required": 3,
+     "available": 0,
+     "missing": 3
+    }
+   },
+   "required_total": 9,
+   "available_total": 0,
+   "missing_total": 9
+  },
+  "repeat_window_days": 15,
+  "recently_served_excluded": 0,
+  "repeat_window_relaxed": false
+ }
+}

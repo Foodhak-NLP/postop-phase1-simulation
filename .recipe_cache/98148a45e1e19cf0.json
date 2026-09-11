@@ -1,0 +1,927 @@
+{
+ "fetched_at": "2026-09-11T17:52:58",
+ "selection": {
+  "schema_version": "phase1_recipe_selection_v2_recipe_pool",
+  "healing_phase": "PROLIFERATION",
+  "macro_profile_version": "phase1_v1",
+  "nss_escalation": "none",
+  "recipes_per_meal": 3,
+  "meals": [
+   "breakfast",
+   "lunch",
+   "dinner"
+  ],
+  "requested_total": 9,
+  "status": "ok",
+  "profile_used": {
+   "gender": "male",
+   "age": 45.0,
+   "weight_kg": 80.0,
+   "height_cm": 178.0,
+   "dietary_restrictions": [],
+   "allergens": []
+  },
+  "source": "ai_rds_recipe_pool",
+  "date": "2026-09-11",
+  "summary": "Approved profile-compatible recipes selected from the AI-RDS recipe pool for the current healing phase.",
+  "days": [
+   {
+    "day": 1,
+    "date": "2026-09-11",
+    "healing_phase": "PROLIFERATION",
+    "recommended_recipes": {
+     "breakfast": {
+      "recommended_meals": [
+       {
+        "action_space": "PROLIFERATION",
+        "macro_profile_version": "phase1_v1",
+        "recipe": {
+         "summary": "A creamy wild rice porridge enriched with soy flour and a hint of briny anchovy, finished with toasted sesame oil and black pepper for a savory start to the day.",
+         "food_title": "Savory Wild Rice and Soy Porridge with Anchovy and Sesame Oil",
+         "mealType": [
+          "breakfast"
+         ],
+         "servings": "1",
+         "ready_in_minutes": "25",
+         "ingredients": [
+          {
+           "name": "wild rice",
+           "unit": "g",
+           "quantity": 59.0
+          },
+          {
+           "name": "soy flour",
+           "unit": "g",
+           "quantity": 37.3
+          },
+          {
+           "name": "anchovy",
+           "unit": "g",
+           "quantity": 12.3
+          },
+          {
+           "name": "sesame oil",
+           "unit": "g",
+           "quantity": 8.0
+          },
+          {
+           "name": "black pepper",
+           "unit": "g",
+           "quantity": 0.9
+          }
+         ],
+         "Calories": "448.1",
+         "Protein": "30.9",
+         "Carbohydrates": "56.1",
+         "Total Fat": "13.2",
+         "Sodium": "460",
+         "Saturated Fat": "2",
+         "Cholesterol": "10.5",
+         "Sugar": "5",
+         "Calcium": "151.1",
+         "Iron": "4.9",
+         "Potassium": "1110",
+         "Vitamin C": "0",
+         "Vitamin E": "1.2",
+         "Vitamin D": "0.2",
+         "cautions": [
+          "Fish",
+          "Flour",
+          "Sesame",
+          "Soy",
+          "Soya"
+         ],
+         "diet_labels": [
+          "Gluten Free",
+          "Pescetarian"
+         ],
+         "instructions": [
+          "1. Bring 380 ml water to a boil in a small saucepan, then stir in 59 g wild rice, reduce the heat to a simmer, and cook uncovered for 18-20 minutes, stirring occasionally, until the grains are tender and beginning to split and the mixture has thickened to a loose porridge consistency.",
+          "2. While the rice simmers, finely mince 12.3 g anchovy so it can melt evenly into the porridge later.",
+          "3. Once the wild rice is tender, whisk 37.3 g soy flour into the porridge in a slow stream to avoid clumping, stirring constantly over low heat for 1-2 minutes until it fully hydrates and thickens the porridge to a creamy texture.",
+          "4. Stir the minced anchovy into the hot porridge and let it warm through for about 1 minute so its briny flavor melts into the base.",
+          "5. Remove the pan from the heat, drizzle 8 g sesame oil over the top, and stir gently to combine, leaving a little swirled on the surface for aroma.",
+          "6. Sprinkle 0.9 g black pepper over the porridge, spoon into a bowl, and serve warm."
+         ],
+         "main_ingredients": [
+          "wild rice",
+          "soy flour"
+         ],
+         "short_description": "Savory wild rice and soy porridge with anchovy and sesame oil.",
+         "long_description": "Nutty wild rice simmers down into a thick, spoonable porridge, then gets a silky boost from soy flour whisked in until creamy. Minced anchovy melts into the base for a savory depth, while a finishing drizzle of sesame oil and a dusting of black pepper bring warmth and aroma to this East Asian-inspired breakfast bowl.",
+         "vitamin_mineral_claims": [
+          "Source of Calcium",
+          "High in Iron",
+          "High in Potassium"
+         ],
+         "why_this_works_for_you": "The slow simmer coaxes real creaminess out of the wild rice, and whisking in soy flour thickens the porridge without any fuss, so the texture comes together reliably every time. A small amount of minced anchovy melts invisibly into the base for savory depth, while the sesame oil drizzled on at the end keeps its aroma bright rather than cooked off, making this a satisfying, umami-rich bowl you can pull together on an ordinary morning.",
+         "scientific_evidence_support": [
+          {
+           "source_url": "https://newsinhealth.nih.gov/2012/12/counting-carbs",
+           "description": "Wild rice is linked to evidence that may decrease hba1c."
+          },
+          {
+           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2833354/",
+           "description": "Soy flour is linked to evidence that may decrease ldl cholesterol."
+          }
+         ]
+        }
+       },
+       {
+        "action_space": "PROLIFERATION",
+        "macro_profile_version": "phase1_v1",
+        "recipe": {
+         "summary": "A creamy split pea porridge finished with toasted peanut crunch and a warm hit of black pepper, ready in about 25 minutes.",
+         "food_title": "Split Pea and Peanut Breakfast Porridge with Black Pepper",
+         "mealType": [
+          "breakfast"
+         ],
+         "servings": "1",
+         "ready_in_minutes": "25",
+         "ingredients": [
+          {
+           "name": "split peas",
+           "unit": "g",
+           "quantity": 85.0
+          },
+          {
+           "name": "peanut",
+           "unit": "g",
+           "quantity": 21.7
+          },
+          {
+           "name": "unsalted butter",
+           "unit": "g",
+           "quantity": 2.0
+          },
+          {
+           "name": "black pepper",
+           "unit": "g",
+           "quantity": 1.7
+          }
+         ],
+         "Calories": "450.4",
+         "Protein": "25.3",
+         "Carbohydrates": "57",
+         "Total Fat": "15.6",
+         "Sodium": "7",
+         "Saturated Fat": "2.8",
+         "Cholesterol": "4.3",
+         "Sugar": "3.5",
+         "Calcium": "66.5",
+         "Iron": "4.7",
+         "Potassium": "897.1",
+         "Vitamin C": "1.5",
+         "Vitamin E": "1.6",
+         "Vitamin D": "0",
+         "cautions": [
+          "Dairy",
+          "Nut",
+          "Peanuts"
+         ],
+         "diet_labels": [
+          "Gluten Free",
+          "Pescetarian",
+          "Vegetarian"
+         ],
+         "instructions": [
+          "1. Rinse 85 g split peas thoroughly under cold water to remove any dust or debris.",
+          "2. Place the rinsed split peas in a small saucepan with 400 ml of the water (measured from a 450 ml total process water) and bring to a boil over high heat.",
+          "3. Reduce the heat to low-medium and simmer uncovered for 18-20 minutes, stirring occasionally, until the split peas are fully softened and starting to break down into a thick, porridge-like consistency; if the pan looks dry before the peas are tender, stir in the remaining 50 ml of water to keep it loose.",
+          "4. While the split peas simmer, toast 21.7 g peanut in a dry small skillet over medium heat for 2-3 minutes, stirring frequently, until fragrant and golden, then roughly chop or crush them.",
+          "5. Once the split peas have thickened into a porridge, remove the pan from the heat and stir in 2 g unsalted butter until melted and fully incorporated, giving the porridge a glossy, rich finish.",
+          "6. Stir 1.7 g black pepper into the porridge, mixing well to distribute it evenly.",
+          "7. Transfer the porridge to a serving bowl and scatter the toasted, crushed peanuts over the top just before serving for crunch and contrast."
+         ],
+         "main_ingredients": [
+          "split peas",
+          "peanut"
+         ],
+         "short_description": "Creamy peppery split pea porridge topped with toasted peanuts.",
+         "long_description": "Split peas simmer down into a thick, comforting porridge enriched with a touch of unsalted butter for a glossy, rounded finish. Black pepper adds a gentle warmth throughout, while a scatter of toasted, crushed peanuts on top brings crunch and nutty depth to every spoonful. It's a satisfying, dal-inspired way to start the day.",
+         "vitamin_mineral_claims": [
+          "High in Iron",
+          "High in Potassium"
+         ],
+         "why_this_works_for_you": "The slow simmer breaks the split peas down into a naturally creamy base, so you get a spoonable, hearty texture without any fuss. Toasting the peanuts separately keeps them crisp against the soft porridge, and the black pepper gives just enough warmth to keep things interesting bite after bite - an easy, one-pan breakfast for a morning when you want something cozy and filling.",
+         "scientific_evidence_support": [
+          {
+           "source_url": "https://medlineplus.gov/ency/article/002469.htm",
+           "description": "Split peas are associated with evidence related to triglycerides."
+          },
+          {
+           "source_url": "https://pubs.acs.org/doi/10.1021/jf034815d",
+           "description": "Peanut is linked to evidence that may decrease ldl cholesterol."
+          }
+         ]
+        }
+       },
+       {
+        "action_space": "PROLIFERATION",
+        "macro_profile_version": "phase1_v1",
+        "recipe": {
+         "summary": "A savoury griddle pancake of wheat and soy flour, laced with cracked black pepper and finished with crunchy macadamia for a hearty, nutty breakfast.",
+         "food_title": "Savory Soy Flour Griddle Pancakes with Macadamia and Black Pepper",
+         "mealType": [
+          "breakfast"
+         ],
+         "servings": "1",
+         "ready_in_minutes": "20",
+         "ingredients": [
+          {
+           "name": "wheat flour",
+           "unit": "g",
+           "quantity": 62.8
+          },
+          {
+           "name": "soy flour",
+           "unit": "g",
+           "quantity": 42.9
+          },
+          {
+           "name": "macadamia nut",
+           "unit": "g",
+           "quantity": 13.4
+          },
+          {
+           "name": "black pepper",
+           "unit": "g",
+           "quantity": 1.7
+          }
+         ],
+         "Calories": "473.6",
+         "Protein": "30.9",
+         "Carbohydrates": "61.3",
+         "Total Fat": "15.6",
+         "Sodium": "6.1",
+         "Saturated Fat": "2.5",
+         "Cholesterol": "0",
+         "Sugar": "4.9",
+         "Calcium": "162.5",
+         "Iron": "6.4",
+         "Potassium": "1196.5",
+         "Vitamin C": "0.2",
+         "Vitamin E": "0.8",
+         "Vitamin D": "0",
+         "cautions": [
+          "Cereals",
+          "Flour",
+          "Gluten",
+          "Nut",
+          "Soy",
+          "Soya"
+         ],
+         "diet_labels": [
+          "Pescetarian",
+          "Vegetarian",
+          "Vegan"
+         ],
+         "instructions": [
+          "1. In a mixing bowl, whisk together 62.8 g wheat flour, 42.9 g soy flour and 1.7 g black pepper until evenly combined.",
+          "2. Measure 169.1 ml water total; pour in 120 ml of it while whisking to form a smooth, pourable batter with no lumps, then let the batter rest 2-3 minutes so the flours hydrate.",
+          "3. Whisk in the remaining 49.1 ml water until the batter loosens to an even, pourable consistency.",
+          "4. Roughly chop 13.4 g macadamia nut; fold most of the pieces into the batter, setting aside a small portion of the chopped nuts to scatter over the pancakes at the end.",
+          "5. Heat a nonstick or lightly seasoned skillet over medium heat for 1-2 minutes until a drop of batter sizzles gently on contact.",
+          "6. Ladle a portion of the batter onto the skillet to form a pancake roughly 12-15 cm wide; cook for 2-3 minutes until bubbles form across the surface and the underside turns golden brown.",
+          "7. Flip carefully and cook the second side for 2 minutes more, until fully set, lightly browned and no longer wet or doughy in the center.",
+          "8. Repeat the ladling and cooking with the remaining batter, adjusting the heat between batches so each pancake cooks through without scorching.",
+          "9. Stack the finished pancakes on a plate, scatter the reserved chopped macadamia over the top, and finish with a final crack of black pepper before serving warm."
+         ],
+         "main_ingredients": [
+          "wheat flour",
+          "soy flour"
+         ],
+         "short_description": "Nutty, peppery savoury soy-flour griddle pancakes.",
+         "long_description": "These griddle pancakes get their savoury, toasty backbone from wheat and soy flour, with black pepper running through the batter for a warm bite. Chopped macadamia adds crunch both inside the pancake and scattered over the top, making a hearty, satisfying start to the day. They cook up golden-brown on a hot skillet in just a few minutes per side.",
+         "vitamin_mineral_claims": [
+          "Source of Calcium",
+          "High in Iron",
+          "High in Potassium"
+         ],
+         "why_this_works_for_you": "The soy flour gives these pancakes a dense, satisfying chew while the wheat flour keeps them tender enough to flip easily, and the black pepper cuts through the earthiness so every bite has a little kick. Scattering chopped macadamia on top after cooking means you get a crisp, buttery crunch against the soft interior, and the whole batch comes together in one bowl and one skillet with no fussy technique required.",
+         "scientific_evidence_support": [
+          {
+           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6390141/",
+           "description": "Wheat flour is linked to evidence that may decrease total cholesterol."
+          },
+          {
+           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2833354/",
+           "description": "Soy flour is linked to evidence that may decrease ldl cholesterol."
+          }
+         ]
+        }
+       }
+      ]
+     },
+     "lunch": {
+      "recommended_meals": [
+       {
+        "action_space": "PROLIFERATION",
+        "macro_profile_version": "phase1_v1",
+        "recipe": {
+         "summary": "A warming split pea and peanut dal, gently spiced with turmeric and finished with crunchy toasted peanuts, ready to eat in about 30 minutes.",
+         "food_title": "Spiced Split Pea and Peanut Dal",
+         "mealType": [
+          "lunch"
+         ],
+         "servings": "1",
+         "ready_in_minutes": "30",
+         "ingredients": [
+          {
+           "name": "split peas",
+           "unit": "g",
+           "quantity": 169.9
+          },
+          {
+           "name": "peanut",
+           "unit": "g",
+           "quantity": 43.3
+          },
+          {
+           "name": "coconut oil",
+           "unit": "g",
+           "quantity": 3.4
+          },
+          {
+           "name": "Turmeric",
+           "unit": "g",
+           "quantity": 3.5
+          }
+         ],
+         "Calories": "903.2",
+         "Protein": "50.5",
+         "Carbohydrates": "114.1",
+         "Total Fat": "31.2",
+         "Sodium": "13.8",
+         "Saturated Fat": "6.3",
+         "Cholesterol": "0",
+         "Sugar": "7.2",
+         "Calcium": "122.6",
+         "Iron": "11.1",
+         "Potassium": "1818.9",
+         "Vitamin C": "3.1",
+         "Vitamin E": "3.2",
+         "Vitamin D": "0",
+         "cautions": [
+          "Nut",
+          "Peanuts"
+         ],
+         "diet_labels": [
+          "Gluten Free",
+          "Pescetarian",
+          "Vegetarian",
+          "Vegan"
+         ],
+         "instructions": [
+          "1. Rinse 169.9 g split peas under cold water until the water runs mostly clear, then tip them into a saucepan.",
+          "2. Pour in 440 ml of the 550 ml total water and stir in 3.5 g Turmeric. Set the saucepan over high heat and bring to a boil.",
+          "3. Reduce the heat to a gentle simmer and cook the split peas, partially covered, for 20-22 minutes, stirring occasionally, until they are fully softened and starting to break down into a thick, porridge-like dal.",
+          "4. While the split peas simmer, warm 3.4 g coconut oil in a small pan over medium heat. Add 43.3 g peanut and toast for 2-3 minutes, shaking the pan occasionally, until fragrant and lightly golden. Tip the peanuts onto a board and roughly crush them with the flat of a knife or a spoon.",
+          "5. Once the split peas are tender, pour in the remaining 110 ml water and stir in half of the crushed peanuts. Mash the mixture lightly with a spoon or fork for 1-2 minutes until it thickens to a creamy, spoonable consistency.",
+          "6. Ladle the dal into a bowl and scatter the rest of the crushed peanuts over the top. Serve hot."
+         ],
+         "main_ingredients": [
+          "split peas",
+          "peanut"
+         ],
+         "short_description": "Creamy turmeric split pea dal with toasted peanuts.",
+         "long_description": "Split peas simmer down into a thick, golden dal, their earthiness lifted by warm turmeric and a touch of coconut oil. A scattering of freshly toasted, crushed peanuts on top adds a satisfying crunch and nutty depth to every spoonful, making this a cozy, filling bowl for a weekday lunch.",
+         "vitamin_mineral_claims": [
+          "Source of Calcium",
+          "High in Iron",
+          "High in Potassium",
+          "Source of Vitamin E"
+         ],
+         "why_this_works_for_you": "The split peas cook down into a naturally thick, comforting base while the turmeric keeps the flavour warm and savory rather than flat, and the toasted peanuts stirred through and sprinkled on top give the dal a nutty crunch against the soft, creamy texture. It is a simple one-pot method with just a short simmer and a quick toast, so it fits easily into a lunchtime routine.",
+         "scientific_evidence_support": [
+          {
+           "source_url": "https://medlineplus.gov/ency/article/002469.htm",
+           "description": "Split peas are associated with evidence related to triglycerides."
+          },
+          {
+           "source_url": "https://pubs.acs.org/doi/10.1021/jf034815d",
+           "description": "Peanut is linked to evidence that may decrease ldl cholesterol."
+          }
+         ]
+        }
+       },
+       {
+        "action_space": "PROLIFERATION",
+        "macro_profile_version": "phase1_v1",
+        "recipe": {
+         "summary": "A slow-simmered split pea stew turned rich and nutty with browned butter and toasted sunflower seed, finished with a generous crack of black pepper.",
+         "food_title": "Split Pea and Sunflower Seed Stew with Browned Butter and Black Pepper",
+         "mealType": [
+          "lunch"
+         ],
+         "servings": "1",
+         "ready_in_minutes": "30",
+         "ingredients": [
+          {
+           "name": "split peas",
+           "unit": "g",
+           "quantity": 177.3
+          },
+          {
+           "name": "sunflower seed",
+           "unit": "g",
+           "quantity": 44.7
+          },
+          {
+           "name": "salted butter",
+           "unit": "g",
+           "quantity": 1.5
+          },
+          {
+           "name": "black pepper",
+           "unit": "g",
+           "quantity": 2.2
+          }
+         ],
+         "Calories": "922.7",
+         "Protein": "50.5",
+         "Carbohydrates": "119.6",
+         "Total Fat": "31.2",
+         "Sodium": "13.5",
+         "Saturated Fat": "3.5",
+         "Cholesterol": "3.2",
+         "Sugar": "6.8",
+         "Calcium": "126.7",
+         "Iron": "11",
+         "Potassium": "1829.1",
+         "Vitamin C": "3.8",
+         "Vitamin E": "16",
+         "Vitamin D": "0",
+         "cautions": [
+          "Dairy"
+         ],
+         "diet_labels": [
+          "Gluten Free",
+          "Pescetarian",
+          "Vegetarian"
+         ],
+         "instructions": [
+          "1. Rinse 177.3 g split peas under cold water, then place them in a small saucepan with 400 ml of the process water (total process water for this recipe is 550 ml); bring to a boil over medium-high heat.",
+          "2. Reduce heat to a gentle simmer, cover partially, and cook the split peas for about 20-22 minutes, stirring occasionally, until they soften and break down into a thick, creamy stew; pour in the remaining 150 ml of water in small splashes during cooking if the pot looks too thick, using it up by the time the peas are tender.",
+          "3. While the peas simmer, toast 44.7 g sunflower seed in a dry small skillet over medium heat for 3-4 minutes, stirring frequently, until golden and fragrant; set aside.",
+          "4. In the same skillet, melt 1.5 g salted butter over medium-low heat, swirling the pan, until it turns lightly golden and smells nutty, about 1-2 minutes.",
+          "5. Once the split peas are tender and creamy, stir the browned butter into the pot along with half of the toasted sunflower seed, mixing well to combine.",
+          "6. Add 2.2 g black pepper to the pot and stir through so the pepper is evenly distributed.",
+          "7. Spoon the stew into a bowl and scatter the remaining toasted sunflower seed over the top for crunch. Serve hot."
+         ],
+         "main_ingredients": [
+          "split peas",
+          "sunflower seed"
+         ],
+         "short_description": "Creamy split pea stew with toasted sunflower seed and black pepper.",
+         "long_description": "Split peas simmer down into a thick, creamy base, then get folded with browned salted butter for a nutty richness and toasted sunflower seed for crunch and depth. A generous finish of cracked black pepper gives the stew a gentle warmth, making it a satisfying, hearty lunch you can have on the table in about 30 minutes.",
+         "vitamin_mineral_claims": [
+          "Source of Calcium",
+          "High in Iron",
+          "High in Potassium",
+          "High in Vitamin E"
+         ],
+         "why_this_works_for_you": "Split peas and sunflower seed give this lunch its substance, black pepper keeps it from tasting plain, and it is on the table in about 30 minutes \u2014 a straightforward pescatarian lunch you can cook on a weeknight.",
+         "scientific_evidence_support": [
+          {
+           "source_url": "https://medlineplus.gov/ency/article/002469.htm",
+           "description": "Split peas are associated with evidence related to triglycerides."
+          },
+          {
+           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2833354/",
+           "description": "Sunflower seed is linked to evidence that may decrease ldl cholesterol."
+          }
+         ]
+        }
+       },
+       {
+        "action_space": "PROLIFERATION",
+        "macro_profile_version": "phase1_v1",
+        "recipe": {
+         "summary": "A soft, golden turmeric-spiced sorghum and soy flatbread finished with nutty browned butter, ready for a warming lunch in under 30 minutes.",
+         "food_title": "Sorghum-Soy Flatbread with Turmeric, Black Pepper and Browned Butter",
+         "mealType": [
+          "lunch"
+         ],
+         "servings": "1",
+         "ready_in_minutes": "28",
+         "ingredients": [
+          {
+           "name": "sorghum",
+           "unit": "g",
+           "quantity": 102.9
+          },
+          {
+           "name": "soy flour",
+           "unit": "g",
+           "quantity": 84.8
+          },
+          {
+           "name": "butter",
+           "unit": "g",
+           "quantity": 24.6
+          },
+          {
+           "name": "Turmeric",
+           "unit": "g",
+           "quantity": 3.2
+          },
+          {
+           "name": "black pepper",
+           "unit": "g",
+           "quantity": 1.5
+          }
+         ],
+         "Calories": "844",
+         "Protein": "53.8",
+         "Carbohydrates": "103.3",
+         "Total Fat": "31.2",
+         "Sodium": "168.9",
+         "Saturated Fat": "14.4",
+         "Cholesterol": "52.9",
+         "Sugar": "10.6",
+         "Calcium": "273",
+         "Iron": "12.3",
+         "Potassium": "2238.2",
+         "Vitamin C": "0",
+         "Vitamin E": "1.7",
+         "Vitamin D": "0",
+         "cautions": [
+          "Dairy",
+          "Flour",
+          "Soy",
+          "Soya"
+         ],
+         "diet_labels": [
+          "Gluten Free",
+          "Pescetarian",
+          "Vegetarian"
+         ],
+         "instructions": [
+          "1. In a mixing bowl, combine 102.9 g sorghum flour and 84.8 g soy flour, then whisk in 3.2 g Turmeric and 1.5 g black pepper until the spices are evenly distributed through the dry mix.",
+          "2. Warm 130 ml water gently (this is the total process water for the recipe) and pour it into the flour mixture gradually, stirring as you go, then knead by hand for 3-4 minutes until a smooth, slightly firm dough forms. Cover the dough and let it rest for 5 minutes so the sorghum flour hydrates fully.",
+          "3. Divide the rested dough into two equal portions and roll each portion out on a lightly floured surface into a thin round disc about 20 cm in diameter.",
+          "4. Place a heavy skillet or tawa over medium heat and add half of the 24.6 g butter, letting it melt and cook until it smells nutty and turns light golden brown, about 1 minute.",
+          "5. Lay one flatbread disc into the skillet and cook for 2-3 minutes per side, pressing gently with a spatula, until browned spots appear and the bread puffs slightly and is cooked through in the center.",
+          "6. Remove the first flatbread from the skillet, add the remaining butter (from the 24.6 g total) to the pan and let it melt and turn lightly golden, then cook the second disc the same way for 2-3 minutes per side until browned and puffed.",
+          "7. Once both flatbreads are cooked, tip the pan and brush any browned butter left in the skillet over the surface of both breads to finish them with a nutty sheen.",
+          "8. Cut each flatbread into wedges and serve warm as a savory, earthy, turmeric-golden lunch with a peppery bite."
+         ],
+         "main_ingredients": [
+          "sorghum",
+          "soy flour"
+         ],
+         "short_description": "Golden turmeric sorghum-soy flatbread with browned butter.",
+         "long_description": "This flatbread is built from a hearty sorghum and soy flour dough, warmly spiced with turmeric and black pepper so it bakes up golden and earthy with a peppery lift. Pan-cooked until lightly puffed and browned, then brushed with nutty browned butter, it has a soft chew and a toasty, savory finish that makes it satisfying on its own or alongside a simple lunch spread.",
+         "vitamin_mineral_claims": [
+          "High in Calcium",
+          "High in Iron",
+          "High in Potassium"
+         ],
+         "why_this_works_for_you": "The sorghum and soy flour dough gives this flatbread a substantial, slightly chewy bite, while the turmeric and black pepper keep every mouthful earthy and warm rather than flat. Browning the butter before brushing it over the finished bread adds a nutty depth that ties the spices together, and the whole thing comes together in one skillet with straightforward kneading and rolling, making it an easy, comforting flatbread to pull together for lunch.",
+         "scientific_evidence_support": [
+          {
+           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3236515/",
+           "description": "Sorghum is linked to evidence that may decrease total cholesterol."
+          },
+          {
+           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2833354/",
+           "description": "Soy flour is linked to evidence that may decrease ldl cholesterol."
+          }
+         ]
+        }
+       }
+      ]
+     },
+     "dinner": {
+      "recommended_meals": [
+       {
+        "action_space": "PROLIFERATION",
+        "macro_profile_version": "phase1_v1",
+        "recipe": {
+         "summary": "A creamy, nutty wild rice porridge thickened with toasted soy flour and finished with brown butter and a sharp crack of black pepper for a cozy weeknight dinner.",
+         "food_title": "Toasted Soy Flour and Wild Rice Porridge with Brown Butter and Black Pepper",
+         "mealType": [
+          "dinner"
+         ],
+         "servings": "1",
+         "ready_in_minutes": "35",
+         "ingredients": [
+          {
+           "name": "wild rice",
+           "unit": "g",
+           "quantity": 100.6
+          },
+          {
+           "name": "soy flour",
+           "unit": "g",
+           "quantity": 82.5
+          },
+          {
+           "name": "unsalted butter",
+           "unit": "g",
+           "quantity": 25.0
+          },
+          {
+           "name": "black pepper",
+           "unit": "g",
+           "quantity": 3.1
+          }
+         ],
+         "Calories": "853.1",
+         "Protein": "56.4",
+         "Carbohydrates": "102.6",
+         "Total Fat": "28.8",
+         "Sodium": "17.8",
+         "Saturated Fat": "13.9",
+         "Cholesterol": "53.8",
+         "Sugar": "10.2",
+         "Calcium": "276",
+         "Iron": "9",
+         "Potassium": "2201.1",
+         "Vitamin C": "0",
+         "Vitamin E": "1.9",
+         "Vitamin D": "0",
+         "cautions": [
+          "Dairy",
+          "Flour",
+          "Soy",
+          "Soya"
+         ],
+         "diet_labels": [
+          "Gluten Free",
+          "Pescetarian",
+          "Vegetarian"
+         ],
+         "instructions": [
+          "1. Rinse 100.6 g wild rice under cold water until the runoff turns clear, then tip it into a medium saucepan with 457.8 ml water.",
+          "2. Bring the pot to a boil over high heat, then reduce to a gentle simmer, cover, and cook for about 30 minutes, stirring occasionally, until the wild rice grains split open and are tender and most of the liquid has been absorbed.",
+          "3. While the rice simmers, melt 25 g unsalted butter in a small skillet over medium heat, swirling the pan occasionally, for 3-4 minutes until the butter foams, turns golden brown and smells nutty; remove from heat and set aside.",
+          "4. In a small bowl, whisk 82.5 g soy flour with a few spoonfuls of the hot liquid ladled from the simmering rice pot, stirring until you have a smooth, lump-free slurry with no dry pockets remaining.",
+          "5. Once the wild rice is tender, stir the soy flour slurry into the pot and cook over low heat for 3-4 minutes, stirring constantly, until the mixture thickens into a creamy, cohesive porridge that coats the back of a spoon.",
+          "6. Remove the pot from heat and stir most of the brown butter into the porridge, swirling it through so the porridge turns glossy, keeping a small drizzle aside for garnish.",
+          "7. Stir 3.1 g black pepper into the porridge for a sharp, cracked bite, then spoon the porridge into a bowl.",
+          "8. Drizzle the reserved brown butter over the top and serve immediately while hot."
+         ],
+         "main_ingredients": [
+          "wild rice",
+          "soy flour"
+         ],
+         "short_description": "Creamy brown-butter wild rice porridge with black pepper.",
+         "long_description": "Tender wild rice simmers until it splits, then gets folded with a smooth soy flour slurry until the whole pot turns thick and creamy. A final swirl of nutty brown butter and a generous crack of black pepper give it warmth and bite, making it a satisfying spoonable dinner for a quiet evening.",
+         "vitamin_mineral_claims": [
+          "High in Calcium",
+          "High in Iron",
+          "High in Potassium",
+          "Source of Vitamin E"
+         ],
+         "why_this_works_for_you": "The wild rice brings a chewy, nutty backbone while the soy flour slurry melts into the pot to build a genuinely creamy, porridge-like texture without any fuss. Browning the butter first means you get real toasty depth from a simple pantry ingredient, and the cracked black pepper keeps every spoonful lively rather than flat. It is an easy one-pot process that rewards a little patience while the rice simmers.",
+         "scientific_evidence_support": [
+          {
+           "source_url": "https://newsinhealth.nih.gov/2012/12/counting-carbs",
+           "description": "Wild rice is linked to evidence that may decrease hba1c."
+          },
+          {
+           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2833354/",
+           "description": "Soy flour is linked to evidence that may decrease ldl cholesterol."
+          }
+         ]
+        }
+       },
+       {
+        "action_space": "PROLIFERATION",
+        "macro_profile_version": "phase1_v1",
+        "recipe": {
+         "summary": "A warm bowl of al dente pasta folded with sticky, umami-rich natto, finished with olive oil, cracked black pepper and crunchy toasted macadamia.",
+         "food_title": "Natto Pasta with Olive Oil, Black Pepper and Toasted Macadamia",
+         "mealType": [
+          "dinner"
+         ],
+         "servings": "1",
+         "ready_in_minutes": "30",
+         "ingredients": [
+          {
+           "name": "pasta",
+           "unit": "g",
+           "quantity": 135.0
+          },
+          {
+           "name": "natto",
+           "unit": "g",
+           "quantity": 164.3
+          },
+          {
+           "name": "macadamia",
+           "unit": "g",
+           "quantity": 8.5
+          },
+          {
+           "name": "virgin olive oil",
+           "unit": "g",
+           "quantity": 4.6
+          },
+          {
+           "name": "black pepper",
+           "unit": "g",
+           "quantity": 3.9
+          }
+         ],
+         "Calories": "958.3",
+         "Protein": "50.5",
+         "Carbohydrates": "125.4",
+         "Total Fat": "31.2",
+         "Sodium": "20.9",
+         "Saturated Fat": "4.7",
+         "Cholesterol": "0",
+         "Sugar": "12",
+         "Calcium": "409.5",
+         "Iron": "19.3",
+         "Potassium": "1582.2",
+         "Vitamin C": "21.5",
+         "Vitamin E": "0.9",
+         "Vitamin D": "0",
+         "cautions": [
+          "Cereals",
+          "Gluten",
+          "Nut",
+          "Soy",
+          "Soya"
+         ],
+         "diet_labels": [
+          "Pescetarian",
+          "Vegetarian",
+          "Vegan"
+         ],
+         "instructions": [
+          "1. Pour 1200 ml water into a pot and bring it to a rolling boil over high heat.",
+          "2. Add 135 g pasta to the boiling water and cook according to package timing, stirring occasionally, until al dente.",
+          "3. While the pasta cooks, roughly chop 8.5 g macadamia and toast it in a dry small skillet over medium-low heat for 2-3 minutes, stirring constantly, until fragrant and lightly golden; remove from the heat and set aside.",
+          "4. In a mixing bowl, stir 164.3 g natto vigorously for about 30 seconds until it turns sticky and slightly whipped, then mix in 3.9 g black pepper.",
+          "5. Drain the cooked pasta, reserving a small splash of the cooking water in a cup, and return the pasta to the warm pot.",
+          "6. Add 4.6 g virgin olive oil to the pasta and toss to coat evenly, loosening with a little of the reserved splash of cooking water if the pasta looks dry.",
+          "7. Fold the seasoned natto into the warm pasta off the heat, stirring gently just until it warms through without cooking further, so the fermented soybeans keep their sticky texture.",
+          "8. Transfer everything to a serving bowl, scatter the toasted macadamia over the top, and serve immediately while warm."
+         ],
+         "main_ingredients": [
+          "pasta",
+          "natto"
+         ],
+         "short_description": "Umami pasta with whipped natto and toasted macadamia crunch.",
+         "long_description": "Hot pasta is tossed with a glossy touch of olive oil, then folded together with vigorously whipped natto so the fermented soybeans stay sticky and glossy rather than turning mushy. Cracked black pepper sharpens the savory, deeply umami flavor, while a scatter of toasted macadamia on top brings a buttery, crunchy contrast to every bite.",
+         "vitamin_mineral_claims": [
+          "High in Calcium",
+          "High in Iron",
+          "High in Potassium",
+          "Source of Vitamin C"
+         ],
+         "why_this_works_for_you": "The natto is whipped before it ever touches the hot pasta, so it clings like a sauce instead of clumping, and folding it in off the heat keeps its distinctive sticky texture intact. Toasting the macadamia separately gives you a crisp, warm contrast against the soft strands, and the black pepper keeps the whole bowl tasting sharp rather than flat - a fast, satisfying dinner with very little cleanup.",
+         "scientific_evidence_support": [
+          {
+           "source_url": "https://medlineplus.gov/carbohydrates.html",
+           "description": "Pasta is associated with evidence related to triglycerides."
+          },
+          {
+           "source_url": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
+           "description": "Natto is linked to evidence that may decrease hba1c."
+          }
+         ]
+        }
+       },
+       {
+        "action_space": "PROLIFERATION",
+        "macro_profile_version": "phase1_v1",
+        "recipe": {
+         "summary": "A slow-simmered split pea stew turned rich and nutty with toasted sunflower seed and finished with a peppery bite, ready for a cozy dinner.",
+         "food_title": "Split Pea and Sunflower Seed Dal with Black Pepper",
+         "mealType": [
+          "dinner"
+         ],
+         "servings": "1",
+         "ready_in_minutes": "40",
+         "ingredients": [
+          {
+           "name": "split peas",
+           "unit": "g",
+           "quantity": 177.0
+          },
+          {
+           "name": "sunflower seed",
+           "unit": "g",
+           "quantity": 44.6
+          },
+          {
+           "name": "sunflower oil",
+           "unit": "g",
+           "quantity": 1.3
+          },
+          {
+           "name": "black pepper",
+           "unit": "g",
+           "quantity": 3.2
+          }
+         ],
+         "Calories": "923.8",
+         "Protein": "50.5",
+         "Carbohydrates": "120",
+         "Total Fat": "31.2",
+         "Sodium": "13.5",
+         "Saturated Fat": "2.9",
+         "Cholesterol": "0",
+         "Sugar": "6.7",
+         "Calcium": "130.4",
+         "Iron": "11",
+         "Potassium": "1838.4",
+         "Vitamin C": "3.8",
+         "Vitamin E": "16.5",
+         "Vitamin D": "0",
+         "cautions": [],
+         "diet_labels": [
+          "Gluten Free",
+          "Pescetarian",
+          "Vegetarian",
+          "Vegan"
+         ],
+         "instructions": [
+          "1. Rinse 177 g split peas thoroughly under cold running water, swirling them with your fingers until the water runs mostly clear, then drain.",
+          "2. In a medium saucepan, heat 1.3 g sunflower oil over medium heat until it shimmers, about 30 seconds.",
+          "3. Add the rinsed split peas to the pan along with 460 ml of the 550 ml water (reserve the remaining 90 ml for later), and raise the heat to bring it to a boil.",
+          "4. Once boiling, reduce the heat to a gentle simmer, cover the pan partially, and cook for 25-30 minutes, stirring occasionally and scraping the bottom to prevent sticking, until the split peas are soft and have broken down into a thick, porridge-like base.",
+          "5. While the peas simmer, place a dry small skillet over medium heat and toast 44.6 g sunflower seed for 2-3 minutes, stirring frequently, until fragrant and lightly golden; tip onto a plate to stop the cooking.",
+          "6. Once the split peas are tender, pour in the reserved 90 ml water to loosen the stew to a thick, spoonable consistency and stir well.",
+          "7. Stir in the toasted sunflower seeds and 3.2 g black pepper, mixing until evenly distributed through the dal.",
+          "8. Continue cooking on low heat for 3-5 minutes, stirring often, so the seeds soften slightly and the pepper's flavor melds into the stew.",
+          "9. Ladle the hot dal into a bowl and serve immediately as a hearty, protein-rich dinner."
+         ],
+         "main_ingredients": [
+          "split peas",
+          "sunflower seed"
+         ],
+         "short_description": "Creamy split pea stew with toasted sunflower seed and black pepper.",
+         "long_description": "Split peas and sunflower seed carry this pescatarian dinner, cooked down into a slow-simmered stew and finished with black pepper. Sunflower oil rounds things out. It comes together in about 40 minutes and makes 1 serving.",
+         "vitamin_mineral_claims": [
+          "Source of Calcium",
+          "High in Iron",
+          "High in Potassium",
+          "High in Vitamin E"
+         ],
+         "why_this_works_for_you": "The long simmer breaks the split peas down into a naturally thick, spoonable stew without needing any thickeners, while toasting the sunflower seeds separately brings out a nutty aroma and a bit of textural contrast against the soft peas. Black pepper is stirred in at the end so its sharp warmth stays bright rather than fading into the long cook, making this an easy, low-fuss dinner that still tastes deeply savory.",
+         "scientific_evidence_support": [
+          {
+           "source_url": "https://medlineplus.gov/ency/article/002469.htm",
+           "description": "Split peas are associated with evidence related to triglycerides."
+          },
+          {
+           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2833354/",
+           "description": "Sunflower seed is linked to evidence that may decrease ldl cholesterol."
+          }
+         ]
+        }
+       }
+      ]
+     }
+    }
+   }
+  ],
+  "selection": {
+   "source": "ai_rds_recipe_pool",
+   "selected_count": 9,
+   "selected_recipe_ids": [
+    "90dfe834-eb33-4eac-8173-529e7daeff90",
+    "376054aa-0ec7-49a0-b514-9bbf99f3c105",
+    "7ed43358-2889-4f1d-965e-efb492179c12",
+    "e43dee7b-5695-461e-8dcd-5871d297d64b",
+    "75daeb65-c04c-4d24-8351-c1f9e3fa3fc4",
+    "c4f06df3-5427-46ab-bc59-9165289cd8b9",
+    "2262f100-49b3-4e79-8af1-6269fbd114f2",
+    "b72f959d-1402-4a80-a544-cdd5b526ba33",
+    "38a535d3-7879-4ed3-9144-0456b71b36fd"
+   ]
+  },
+  "recipe_ids": [
+   "90dfe834-eb33-4eac-8173-529e7daeff90",
+   "376054aa-0ec7-49a0-b514-9bbf99f3c105",
+   "7ed43358-2889-4f1d-965e-efb492179c12",
+   "e43dee7b-5695-461e-8dcd-5871d297d64b",
+   "75daeb65-c04c-4d24-8351-c1f9e3fa3fc4",
+   "c4f06df3-5427-46ab-bc59-9165289cd8b9",
+   "2262f100-49b3-4e79-8af1-6269fbd114f2",
+   "b72f959d-1402-4a80-a544-cdd5b526ba33",
+   "38a535d3-7879-4ed3-9144-0456b71b36fd"
+  ],
+  "availability": {
+   "complete": true,
+   "meal_counts": {
+    "breakfast": 3,
+    "lunch": 3,
+    "dinner": 3
+   },
+   "shortages": {},
+   "required_total": 9,
+   "available_total": 9,
+   "missing_total": 0
+  },
+  "repeat_window_days": 15,
+  "recently_served_excluded": 0,
+  "repeat_window_relaxed": false
+ }
+}
