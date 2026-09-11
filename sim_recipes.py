@@ -72,8 +72,18 @@ def cached(key: str) -> Optional[Dict[str, Any]]:
 
 
 def store(key: str, selection: Dict[str, Any]) -> None:
-    """Keep what the pool returned, so a demo survives losing the database."""
+    """Keep what the pool returned, so a demo survives losing the database.
+
+    Rewritten only when the rows actually change. The pool answers the same
+    query the same way, so stamping a new time on an identical file every time
+    the app starts would leave the cache permanently modified in git — churn
+    that says nothing, over a timestamp whose only job is to tell a reader how
+    old the cached rows are.
+    """
     try:
+        existing = cached(key)
+        if existing and existing.get("selection") == selection:
+            return
         CACHE_DIR.mkdir(exist_ok=True)
         (CACHE_DIR / f"{key}.json").write_text(json.dumps({
             "fetched_at": dt.datetime.now().isoformat(timespec="seconds"),
