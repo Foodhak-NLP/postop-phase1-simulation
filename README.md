@@ -5,9 +5,17 @@ gate, **one day at a time, for up to six weeks**. Every day gives an insight and
 a recommendation from each layer.
 
 ```bash
-../Postop-Phase1/Staging/phase1/bin/streamlit run app.py    # the app
-../Postop-Phase1/Staging/phase1/bin/python run_simulation.py  # the same, in a terminal
+# The app. --server.port only matters if something else already holds 8501.
+../Postop-Phase1/Staging/phase1/bin/streamlit run app.py --server.port 8502
+
+# The same simulation, in a terminal.
+../Postop-Phase1/Staging/phase1/bin/python run_simulation.py
 ```
+
+The port is passed on the command line rather than set in
+`.streamlit/config.toml`, because that file is committed: a port pinned there
+would follow the app to any host and make it start somewhere the platform is
+not looking.
 
 No clinical logic lives here. The app imports `Postop-Phase1/Staging/*` and
 calls `run_phase1()`, so every threshold, matrix and rule on screen is the

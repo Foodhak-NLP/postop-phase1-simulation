@@ -1,6 +1,9 @@
-[server]
-headless = true
-port = 8502
-
+# Deployment-safe settings only.
+#
+# `server.port` must NOT be set here. A host picks its own port and health-checks
+# it — Streamlit Cloud serves on 8501 — so pinning one in a committed file makes
+# the app start somewhere the platform is not looking and fail its health check
+# with "connection refused". Pass --server.port on the command line for local
+# runs instead.
 [browser]
 gatherUsageStats = false
