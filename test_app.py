@@ -194,6 +194,17 @@ check("there is no Apply button — a changed field re-runs on its own",
       not any("Apply" in b.label for b in at.button),
       str([b.label for b in at.button if not (b.key or "").startswith("cal_")]))
 
+print("\nthe patient is identified by the Foodhak user id")
+_uid = "4d1c2fc8-77ad-4205-8226-cf58a175e910"
+at = render(picked_day=5)
+_bundle = dict(at.session_state["written_days"]) or None
+_text = " ".join([m.value for m in at.markdown] + [c.value for c in at.caption])
+check("the note names the Foodhak user id, not an invented reference",
+      "SIM-0001" not in _text, "SIM-0001 is still on screen")
+check("and the id it uses is the one in the sidebar",
+      _uid in _text or not any("Post-Op" in m.value for m in at.markdown),
+      "the note names something else")
+
 print("\nthe intro")
 at = render()
 check("the intro is there, and closed until it is wanted",

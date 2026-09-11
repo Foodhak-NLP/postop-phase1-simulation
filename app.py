@@ -246,7 +246,9 @@ if conditions:
 
 user_id = st.sidebar.text_input(
     "Foodhak user id", value=DEFAULT_USER_ID, key="user_id",
-    help="Passed to the recipe pool as `user_id`. No layer reads it.")
+    help="Identifies the patient, the way the real payload does. It is what "
+         "the recipe pool is queried with and what Layer 4's note names. No "
+         "layer computes with it.").strip() or DEFAULT_USER_ID
 
 
 
@@ -265,7 +267,7 @@ _heading_slot = st.container()
 days_total = T.MAX_DAYS
 
 scenario = (surgery, days_total, recovery, intake_pattern, diabetic,
-            float(age), str(sex), float(height_cm), float(weight_kg))
+            float(age), str(sex), float(height_cm), float(weight_kg), user_id)
 # A widget value belongs to the patient it was typed against. Changing the
 # patient underneath it would turn stale numbers into phantom edits.
 if st.session_state.get("_scenario_was") != scenario:
@@ -274,11 +276,13 @@ if st.session_state.get("_scenario_was") != scenario:
                    if k.split("_")[0] in ("lab", "tp", "fh", "hp", "th", "sp",
                                           "pain", "ap", "na", "ml")]:
         del st.session_state[_stale]
+# The patient is identified by the Foodhak user id, the way the real payload
+# does it — `patient_ref` is what Layer 4 prints and what the layers echo back.
 _build_args = dict(surgery=surgery, days=days_total, recovery=recovery,
                    intake_pattern=intake_pattern, diabetic=diabetic,
                    age=float(age), sex=str(sex).lower(),
                    height_cm=float(height_cm), weight_kg=float(weight_kg),
-                   seed=5)
+                   patient_ref=user_id, seed=5)
 base_timeline = _timeline_for(**_build_args)
 day_numbers_of_base = [int(d["day"]) for d in base_timeline["days"]]
 base_arc = _replay_sim(**_build_args)
