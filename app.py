@@ -362,9 +362,11 @@ gate = bundle["transition_gate"]
 meals_today = record.get("meals_logged")
 day_view = sim_insights.overall(bundle, meals_logged=meals_today)
 
-_heading_slot.title(_spec["label"])
+_heading_slot.title("Post-op Phase 1 Simulation")
+# The operation moves into the caption rather than disappearing: it is the
+# first thing that identifies which patient is on screen.
 _heading_slot.caption(
-    f"{weight_kg:g} kg"
+    f"{_spec['label']} · {weight_kg:g} kg"
     + (f" · {', '.join(conditions)}" if conditions else "")
     + f"  \n**Post-op day {picked_day} of {day_numbers[-1]}.** Everything "
       "below is Phase 1 as it stood that morning.")
